@@ -2085,3 +2085,400 @@ I, [2014-07-10T12:42:26.160425 #42674]  INFO -- default-centos-64: ==> default: 
 I, [2014-07-10T12:42:26.463350 #42674]  INFO -- default-centos-64: Vagrant instance <default-centos-64> destroyed.
 I, [2014-07-10T12:42:26.464364 #42674]  INFO -- default-centos-64: Finished destroying <default-centos-64> (0m3.12s).
 I, [2014-07-10T12:42:26.464546 #42674]  INFO -- default-centos-64: Finished testing <default-centos-64> (7m1.86s).
+I, [2014-07-10T13:18:15.668944 #43331]  INFO -- default-centos-64: -----> Cleaning up any prior instances of <default-centos-64>
+I, [2014-07-10T13:18:15.669118 #43331]  INFO -- default-centos-64: -----> Destroying <default-centos-64>...
+I, [2014-07-10T13:18:15.670002 #43331]  INFO -- default-centos-64: Finished destroying <default-centos-64> (0m0.00s).
+I, [2014-07-10T13:18:15.670669 #43331]  INFO -- default-centos-64: -----> Testing <default-centos-64>
+I, [2014-07-10T13:18:15.670788 #43331]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T13:18:16.562322 #43331]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T13:18:16.964063 #43331]  INFO -- default-centos-64: ==> default: Importing base box 'opscode-centos-6.4'...
+[KProgress: 10%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[KI, [2014-07-10T13:18:25.566867 #43331]  INFO -- default-centos-64: ==> default: Matching MAC address for NAT networking...
+I, [2014-07-10T13:18:26.016101 #43331]  INFO -- default-centos-64: ==> default: Setting the name of the VM: default-centos-64_default_1405012705995_49754
+I, [2014-07-10T13:18:26.224570 #43331]  INFO -- default-centos-64: ==> default: Clearing any previously set network interfaces...
+I, [2014-07-10T13:18:26.347776 #43331]  INFO -- default-centos-64: ==> default: Preparing network interfaces based on configuration...
+I, [2014-07-10T13:18:26.348091 #43331]  INFO -- default-centos-64:     default: Adapter 1: nat
+I, [2014-07-10T13:18:26.348274 #43331]  INFO -- default-centos-64:     default: Adapter 2: hostonly
+I, [2014-07-10T13:18:26.377222 #43331]  INFO -- default-centos-64: ==> default: Forwarding ports...
+I, [2014-07-10T13:18:26.419170 #43331]  INFO -- default-centos-64:     default: 22 => 2222 (adapter 1)
+I, [2014-07-10T13:18:28.645526 #43331]  INFO -- default-centos-64: ==> default: Booting VM...
+I, [2014-07-10T13:18:28.854415 #43331]  INFO -- default-centos-64: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2014-07-10T13:18:29.076746 #43331]  INFO -- default-centos-64:     default: SSH address: 127.0.0.1:2222
+I, [2014-07-10T13:18:29.076951 #43331]  INFO -- default-centos-64:     default: SSH username: vagrant
+I, [2014-07-10T13:18:29.077110 #43331]  INFO -- default-centos-64:     default: SSH auth method: private key
+I, [2014-07-10T13:18:44.173671 #43331]  INFO -- default-centos-64:     default: Warning: Connection timeout. Retrying...
+I, [2014-07-10T13:18:51.873656 #43331]  INFO -- default-centos-64: ==> default: Machine booted and ready!
+I, [2014-07-10T13:18:51.898829 #43331]  INFO -- default-centos-64: ==> default: Checking for guest additions in VM...
+I, [2014-07-10T13:18:51.921578 #43331]  INFO -- default-centos-64: ==> default: Setting hostname...
+I, [2014-07-10T13:18:59.045644 #43331]  INFO -- default-centos-64: ==> default: Configuring and enabling network interfaces...
+I, [2014-07-10T13:18:59.762377 #43331]  INFO -- default-centos-64: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2014-07-10T13:19:00.857238 #43331]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T13:19:00.861958 #43331]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m45.19s).
+I, [2014-07-10T13:19:00.862416 #43331]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T13:19:00.866308 #43331]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T13:19:00.866990 #43331]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.1.3...
+I, [2014-07-10T13:19:00.959547 #43331]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T13:19:01.175837 #43331]  INFO -- default-centos-64: -----> Installing Chef Omnibus (true)
+I, [2014-07-10T13:19:01.175977 #43331]  INFO -- default-centos-64: downloading https://www.getchef.com/chef/install.sh
+I, [2014-07-10T13:19:01.176010 #43331]  INFO -- default-centos-64:   to file /tmp/install.sh
+I, [2014-07-10T13:19:01.176033 #43331]  INFO -- default-centos-64: trying wget...
+I, [2014-07-10T13:19:07.449854 #43331]  INFO -- default-centos-64: trying curl...
+I, [2014-07-10T13:19:13.251636 #43331]  INFO -- default-centos-64:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+I, [2014-07-10T13:19:13.251721 #43331]  INFO -- default-centos-64:                           Dload  Upload   Total   Spent    Left  Speed
+I, [2014-07-10T13:19:13.251802 #43331]  INFO -- default-centos-64:   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+I, [2014-07-10T13:19:13.707272 #43331]  INFO -- default-centos-64: 100 16519  100 16519    0     0   2641      0  0:00:06  0:00:06 --:--:-- 36305
+I, [2014-07-10T13:19:13.740691 #43331]  INFO -- default-centos-64: Downloading Chef  for el...
+I, [2014-07-10T13:19:13.744702 #43331]  INFO -- default-centos-64: downloading https://www.getchef.com/chef/metadata?v=&prerelease=false&nightlies=false&p=el&pv=6&m=x86_64
+I, [2014-07-10T13:19:13.744750 #43331]  INFO -- default-centos-64:   to file /tmp/install.sh.2988/metadata.txt
+I, [2014-07-10T13:19:13.744766 #43331]  INFO -- default-centos-64: trying wget...
+I, [2014-07-10T13:19:19.560367 #43331]  INFO -- default-centos-64: trying curl...
+I, [2014-07-10T13:19:25.371770 #43331]  INFO -- default-centos-64: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.12.8-2.el6.x86_64.rpm
+I, [2014-07-10T13:19:25.371825 #43331]  INFO -- default-centos-64: md5	3dfacef6e6640adefc12bf6956a3a4e2
+I, [2014-07-10T13:19:25.371842 #43331]  INFO -- default-centos-64: sha256	ee45e0f226ffd503a949c1b10944064a4655d0255e03a16b073bed85eac83e95
+I, [2014-07-10T13:19:25.373894 #43331]  INFO -- default-centos-64: downloaded metadata file looks valid...
+I, [2014-07-10T13:19:25.382501 #43331]  INFO -- default-centos-64: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.12.8-2.el6.x86_64.rpm
+I, [2014-07-10T13:19:25.382539 #43331]  INFO -- default-centos-64:   to file /tmp/install.sh.2988/chef-11.12.8-2.el6.x86_64.rpm
+I, [2014-07-10T13:19:25.382556 #43331]  INFO -- default-centos-64: trying wget...
+I, [2014-07-10T13:21:12.884502 #43331]  INFO -- default-centos-64: Comparing checksum with sha256sum...
+I, [2014-07-10T13:21:13.029986 #43331]  INFO -- default-centos-64: Installing Chef 
+I, [2014-07-10T13:21:13.030036 #43331]  INFO -- default-centos-64: installing with rpm...
+I, [2014-07-10T13:21:13.085607 #43331]  INFO -- default-centos-64: warning: /tmp/install.sh.2988/chef-11.12.8-2.el6.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+Preparing...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)I, [2014-07-10T13:21:13.423332 #43331]  INFO -- default-centos-64: #########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
+   1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)I, [2014-07-10T13:21:16.011057 #43331]  INFO -- default-centos-64: ########################################### ( 99%)########################################### [100%]
+I, [2014-07-10T13:21:16.475532 #43331]  INFO -- default-centos-64: Thank you for installing Chef!
+I, [2014-07-10T13:21:16.523787 #43331]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T13:21:17.551393 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:15+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T13:21:17.551464 #43331]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T13:21:17.551481 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.567088 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:15+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T13:21:17.581972 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:15+00:00] WARN: 
+I, [2014-07-10T13:21:17.582051 #43331]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T13:21:17.582087 #43331]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T13:21:17.582117 #43331]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T13:21:17.582147 #43331]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T13:21:17.582175 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582208 #43331]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T13:21:17.582255 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582287 #43331]  INFO -- default-centos-64: ```
+I, [2014-07-10T13:21:17.582319 #43331]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T13:21:17.582347 #43331]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T13:21:17.582374 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582405 #43331]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T13:21:17.582434 #43331]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T13:21:17.582465 #43331]  INFO -- default-centos-64: ```
+I, [2014-07-10T13:21:17.582492 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582519 #43331]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T13:21:17.582565 #43331]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T13:21:17.582592 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582619 #43331]  INFO -- default-centos-64: ```
+I, [2014-07-10T13:21:17.582645 #43331]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T13:21:17.582673 #43331]  INFO -- default-centos-64: ```
+I, [2014-07-10T13:21:17.582695 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.582719 #43331]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T13:21:17.582741 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:21:17.613536 #43331]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T13:21:17.613588 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:15+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T13:21:17.613624 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:15+00:00] INFO: Chef-client pid: 3123
+I, [2014-07-10T13:21:28.052356 #43331]  INFO -- default-centos-64: Creating a new client identity for default-centos-64 using the validator key.[0m
+I, [2014-07-10T13:21:28.052425 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2014-07-10T13:21:28.083869 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: http://127.0.0.1:8889/nodes/default-centos-64
+I, [2014-07-10T13:21:28.089423 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T13:21:28.092941 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T13:21:28.092977 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T13:21:28.092993 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T13:21:28.093007 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Running start handlers
+I, [2014-07-10T13:21:28.093019 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Start handlers complete.
+I, [2014-07-10T13:21:28.098253 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T13:21:28.098288 #43331]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T13:21:28.279746 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T13:21:28.282355 #43331]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T13:21:28.290240 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/hello/recipes/default.rb in the cache.
+I, [2014-07-10T13:21:28.297998 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/hello/metadata.json in the cache.
+I, [2014-07-10T13:21:28.306501 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/hello/README.md in the cache.
+I, [2014-07-10T13:21:28.306558 #43331]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T13:21:28.325458 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/recipes/server_deprecated.rb in the cache.
+I, [2014-07-10T13:21:28.335935 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/recipes/server.rb in the cache.
+I, [2014-07-10T13:21:28.345069 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/recipes/client.rb in the cache.
+I, [2014-07-10T13:21:28.356451 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_ubuntu.rb in the cache.
+I, [2014-07-10T13:21:28.366938 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_omnios.rb in the cache.
+I, [2014-07-10T13:21:28.377917 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_ubuntu.rb in the cache.
+I, [2014-07-10T13:21:28.409778 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_smartos.rb in the cache.
+I, [2014-07-10T13:21:28.418556 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/resource_mysql_client.rb in the cache.
+I, [2014-07-10T13:21:28.429475 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client.rb in the cache.
+I, [2014-07-10T13:21:28.438300 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/matchers.rb in the cache.
+I, [2014-07-10T13:21:28.447632 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service.rb in the cache.
+I, [2014-07-10T13:21:28.458476 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_suse.rb in the cache.
+I, [2014-07-10T13:21:28.476024 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_rhel.rb in the cache.
+I, [2014-07-10T13:21:28.503442 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_omnios.rb in the cache.
+I, [2014-07-10T13:21:28.514567 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_freebsd.rb in the cache.
+I, [2014-07-10T13:21:28.525682 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/resource_mysql_service.rb in the cache.
+I, [2014-07-10T13:21:28.535662 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/helpers.rb in the cache.
+I, [2014-07-10T13:21:28.554574 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_suse.rb in the cache.
+I, [2014-07-10T13:21:28.565580 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_debian.rb in the cache.
+I, [2014-07-10T13:21:28.588728 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_smartos.rb in the cache.
+I, [2014-07-10T13:21:28.596514 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_fedora.rb in the cache.
+I, [2014-07-10T13:21:28.607527 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_rhel.rb in the cache.
+I, [2014-07-10T13:21:28.617964 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_service_debian.rb in the cache.
+I, [2014-07-10T13:21:28.627554 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_fedora.rb in the cache.
+I, [2014-07-10T13:21:28.645578 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/libraries/provider_mysql_client_freebsd.rb in the cache.
+I, [2014-07-10T13:21:28.656558 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:26+00:00] INFO: Storing updated cookbooks/mysql/attributes/default.rb in the cache.
+I, [2014-07-10T13:21:28.666295 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/mysql/metadata.json in the cache.
+I, [2014-07-10T13:21:28.674471 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/mysql/README.md in the cache.
+I, [2014-07-10T13:21:28.674519 #43331]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T13:21:28.682632 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/recipes/mysql55.rb in the cache.
+I, [2014-07-10T13:21:28.691689 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/recipes/connectors.rb in the cache.
+I, [2014-07-10T13:21:28.698827 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/recipes/mysql56.rb in the cache.
+I, [2014-07-10T13:21:28.718198 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/attributes/mysql55-community.rb in the cache.
+I, [2014-07-10T13:21:28.727350 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/attributes/mysql56-community.rb in the cache.
+I, [2014-07-10T13:21:28.735652 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/attributes/mysql-connectors-community.rb in the cache.
+I, [2014-07-10T13:21:28.754550 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/metadata.json in the cache.
+I, [2014-07-10T13:21:28.763162 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum-mysql-community/README.md in the cache.
+I, [2014-07-10T13:21:28.763208 #43331]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T13:21:28.772281 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/resources/repository.rb in the cache.
+I, [2014-07-10T13:21:28.778707 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/resources/globalconfig.rb in the cache.
+I, [2014-07-10T13:21:28.787546 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/providers/repository.rb in the cache.
+I, [2014-07-10T13:21:28.795525 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/providers/globalconfig.rb in the cache.
+I, [2014-07-10T13:21:28.802530 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/recipes/default.rb in the cache.
+I, [2014-07-10T13:21:28.812023 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/libraries/matchers.rb in the cache.
+I, [2014-07-10T13:21:28.828609 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/attributes/main.rb in the cache.
+I, [2014-07-10T13:21:28.837367 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/metadata.json in the cache.
+I, [2014-07-10T13:21:28.845475 #43331]  INFO -- default-centos-64: [2014-07-10T17:21:27+00:00] INFO: Storing updated cookbooks/yum/README.md in the cache.
+I, [2014-07-10T13:21:28.845524 #43331]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T13:21:28.845541 #43331]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T13:21:28.896697 #43331]  INFO -- default-centos-64: Converging 4 resources[0m
+I, [2014-07-10T13:21:28.896767 #43331]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T13:21:28.896786 #43331]  INFO -- default-centos-64:   * package[httpd] action install[0m[2014-07-10T17:21:27+00:00] INFO: Processing package[httpd] action install (hello::default line 1)
+I, [2014-07-10T13:22:19.355198 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:17+00:00] INFO: package[httpd] installing httpd-2.2.15-30.el6.centos from updates repository
+I, [2014-07-10T13:22:44.021830 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.021888 #43331]  INFO -- default-centos-64:     - install version 2.2.15-30.el6.centos of package httpd[0m
+I, [2014-07-10T13:22:44.022473 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:22:44.022501 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:22:44.022516 #43331]  INFO -- default-centos-64:   * service[httpd] action enable[0m[2014-07-10T17:22:42+00:00] INFO: Processing service[httpd] action enable (hello::default line 5)
+I, [2014-07-10T13:22:44.314711 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:42+00:00] INFO: service[httpd] enabled
+I, [2014-07-10T13:22:44.314805 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.314850 #43331]  INFO -- default-centos-64:     - enable service service[httpd][0m
+I, [2014-07-10T13:22:44.314872 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:22:44.314893 #43331]  INFO -- default-centos-64:   * service[httpd] action start[0m[2014-07-10T17:22:42+00:00] INFO: Processing service[httpd] action start (hello::default line 5)
+I, [2014-07-10T13:22:44.610309 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:42+00:00] INFO: service[httpd] started
+I, [2014-07-10T13:22:44.610378 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.610397 #43331]  INFO -- default-centos-64:     - start service service[httpd][0m
+I, [2014-07-10T13:22:44.610412 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:22:44.610425 #43331]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T17:22:42+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 9)
+I, [2014-07-10T13:22:44.612606 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:42+00:00] INFO: file[/var/www/html/index.html] created file /var/www/html/index.html
+I, [2014-07-10T13:22:44.612643 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.612661 #43331]  INFO -- default-centos-64:     - create new file /var/www/html/index.html[0m
+I, [2014-07-10T13:22:44.626936 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:42+00:00] INFO: file[/var/www/html/index.html] updated file contents /var/www/html/index.html
+I, [2014-07-10T13:22:44.627698 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.627732 #43331]  INFO -- default-centos-64:     - update content in file /var/www/html/index.html from none to 12998c[0m[37m
+I, [2014-07-10T13:22:44.627756 #43331]  INFO -- default-centos-64:  --- /var/www/html/index.html	2014-07-10 17:22:42.968023164 +0000[0m[37m
+I, [2014-07-10T13:22:44.627774 #43331]  INFO -- default-centos-64:  +++ /tmp/.index.html20140710-3123-vouwfr	2014-07-10 17:22:42.971024664 +0000[0m[37m
+I, [2014-07-10T13:22:44.627790 #43331]  INFO -- default-centos-64:  @@ -1 +1,2 @@[0m[37m
+I, [2014-07-10T13:22:44.627805 #43331]  INFO -- default-centos-64:  +hello there[0m
+I, [2014-07-10T13:22:44.901915 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.902026 #43331]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T13:22:44.902687 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:22:44.902733 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:22:44.903730 #43331]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T17:22:43+00:00] INFO: Processing mysql_service[default] action create (hello::default line 14)
+I, [2014-07-10T13:22:44.908662 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:22:44.908707 #43331]  INFO -- default-centos-64:     - rhel pattern[0m
+I, [2014-07-10T13:22:44.910006 #43331]  INFO -- default-centos-64: Recipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T13:22:44.910044 #43331]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T17:22:43+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T13:22:45.163031 #43331]  INFO -- default-centos-64: [2014-07-10T17:22:43+00:00] INFO: package[mysql-server] installing mysql-server-5.1.73-3.el6_5 from updates repository
+I, [2014-07-10T13:23:22.217577 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.217644 #43331]  INFO -- default-centos-64:     - install version 5.1.73-3.el6_5 of package mysql-server[0m
+I, [2014-07-10T13:23:22.217685 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:22.217707 #43331]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T17:23:20+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T13:23:22.219523 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/etc/mysql/conf.d] created directory /etc/mysql/conf.d
+I, [2014-07-10T13:23:22.219558 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.219575 #43331]  INFO -- default-centos-64:     - create new directory /etc/mysql/conf.d[0m
+I, [2014-07-10T13:23:22.220920 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/etc/mysql/conf.d] owner changed to 27
+I, [2014-07-10T13:23:22.220962 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/etc/mysql/conf.d] group changed to 27
+I, [2014-07-10T13:23:22.220980 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/etc/mysql/conf.d] mode changed to 750
+I, [2014-07-10T13:23:22.220999 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.221012 #43331]  INFO -- default-centos-64:     - change mode from '' to '0750'[0m[32m
+I, [2014-07-10T13:23:22.221033 #43331]  INFO -- default-centos-64:     - change owner from '' to 'mysql'[0m[32m
+I, [2014-07-10T13:23:22.221046 #43331]  INFO -- default-centos-64:     - change group from '' to 'mysql'[0m
+I, [2014-07-10T13:23:22.384310 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.384372 #43331]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T13:23:22.385269 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:22.385320 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:22.385342 #43331]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m
+I, [2014-07-10T13:23:22.436729 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T13:23:22.438865 #43331]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T13:23:22.438897 #43331]  INFO -- default-centos-64:   * directory[/data] action create[0m[2014-07-10T17:23:20+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T13:23:22.440357 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/data] created directory /data
+I, [2014-07-10T13:23:22.440394 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.440412 #43331]  INFO -- default-centos-64:     - create new directory /data[0m
+I, [2014-07-10T13:23:22.442093 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/data] owner changed to 27
+I, [2014-07-10T13:23:22.442127 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/data] group changed to 27
+I, [2014-07-10T13:23:22.442143 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:20+00:00] INFO: directory[/data] mode changed to 755
+I, [2014-07-10T13:23:22.442156 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.442168 #43331]  INFO -- default-centos-64:     - change mode from '' to '0755'[0m[32m
+I, [2014-07-10T13:23:22.442180 #43331]  INFO -- default-centos-64:     - change owner from '' to 'mysql'[0m[32m
+I, [2014-07-10T13:23:22.442191 #43331]  INFO -- default-centos-64:     - change group from '' to 'mysql'[0m
+I, [2014-07-10T13:23:22.552434 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:22.552501 #43331]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T13:23:22.553289 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:22.553346 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:22.554306 #43331]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T17:23:20+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T13:23:24.267048 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: service[mysqld] started
+I, [2014-07-10T13:23:24.267114 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.267148 #43331]  INFO -- default-centos-64:     - start service service[mysqld][0m
+I, [2014-07-10T13:23:24.267167 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:24.267186 #43331]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T17:23:22+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T13:23:24.452592 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: service[mysqld] enabled
+I, [2014-07-10T13:23:24.452836 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.452876 #43331]  INFO -- default-centos-64:     - enable service service[mysqld][0m
+I, [2014-07-10T13:23:24.453812 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:24.453853 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:24.453876 #43331]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T17:23:22+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T13:23:24.501204 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T13:23:24.501282 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.501313 #43331]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T13:23:24.502060 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:24.502124 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:24.502152 #43331]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m
+I, [2014-07-10T13:23:24.503082 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T13:23:24.532099 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: template[/etc/mysql_grants.sql] created file /etc/mysql_grants.sql
+I, [2014-07-10T13:23:24.532152 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.532168 #43331]  INFO -- default-centos-64:     - create new file /etc/mysql_grants.sql[0m
+I, [2014-07-10T13:23:24.536577 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: template[/etc/mysql_grants.sql] updated file contents /etc/mysql_grants.sql
+I, [2014-07-10T13:23:24.536614 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.536630 #43331]  INFO -- default-centos-64:     - update content in file /etc/mysql_grants.sql from none to 3a0001[0m[37m
+I, [2014-07-10T13:23:24.536649 #43331]  INFO -- default-centos-64:  --- /etc/mysql_grants.sql	2014-07-10 17:23:22.892975630 +0000[0m[37m
+I, [2014-07-10T13:23:24.536666 #43331]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-3123-5am3jy	2014-07-10 17:23:22.898978630 +0000[0m[37m
+I, [2014-07-10T13:23:24.536681 #43331]  INFO -- default-centos-64:  @@ -1 +1,8 @@[0m[37m
+I, [2014-07-10T13:23:24.536696 #43331]  INFO -- default-centos-64:  +DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1');[0m[37m
+I, [2014-07-10T13:23:24.536711 #43331]  INFO -- default-centos-64:  +UPDATE mysql.user SET Password=PASSWORD('ilikerandompasswords') WHERE User='root';[0m[37m
+I, [2014-07-10T13:23:24.536737 #43331]  INFO -- default-centos-64:  +DELETE FROM mysql.user WHERE User='';[0m[37m
+I, [2014-07-10T13:23:24.536752 #43331]  INFO -- default-centos-64:  +DROP DATABASE IF EXISTS test;[0m[37m
+I, [2014-07-10T13:23:24.536766 #43331]  INFO -- default-centos-64:  +DELETE FROM mysql.db WHERE Db='test' OR Db='test\_%';[0m[37m
+I, [2014-07-10T13:23:24.536800 #43331]  INFO -- default-centos-64:  +SET PASSWORD FOR 'root'@'localhost' = PASSWORD('ilikerandompasswords');[0m[37m
+I, [2014-07-10T13:23:24.536818 #43331]  INFO -- default-centos-64:  +SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('ilikerandompasswords');[0m[2014-07-10T17:23:22+00:00] INFO: template[/etc/mysql_grants.sql] owner changed to 0
+I, [2014-07-10T13:23:24.536830 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: template[/etc/mysql_grants.sql] group changed to 0
+I, [2014-07-10T13:23:24.536842 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:22+00:00] INFO: template[/etc/mysql_grants.sql] mode changed to 600
+I, [2014-07-10T13:23:24.536853 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.536864 #43331]  INFO -- default-centos-64:     - change mode from '' to '0600'[0m[32m
+I, [2014-07-10T13:23:24.536875 #43331]  INFO -- default-centos-64:     - change owner from '' to 'root'[0m[32m
+I, [2014-07-10T13:23:24.536887 #43331]  INFO -- default-centos-64:     - change group from '' to 'root'[0m
+I, [2014-07-10T13:23:24.651966 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.652046 #43331]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T13:23:24.653249 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:24.653294 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:24.654272 #43331]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T17:23:23+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T13:23:24.654326 #43331]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T13:23:24.654347 #43331]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m
+I, [2014-07-10T13:23:24.655523 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T13:23:24.674570 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710172323.039926
+I, [2014-07-10T13:23:24.675829 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T13:23:24.675858 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.675888 #43331]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 3ba593 to b6a117[0m[37m
+I, [2014-07-10T13:23:24.675915 #43331]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-02-12 19:42:13.000000000 +0000[0m[37m
+I, [2014-07-10T13:23:24.675931 #43331]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-3123-yfs2lw	2014-07-10 17:23:23.037047631 +0000[0m[37m
+I, [2014-07-10T13:23:24.675963 #43331]  INFO -- default-centos-64:  @@ -1,11 +1,17 @@[0m[37m
+I, [2014-07-10T13:23:24.675979 #43331]  INFO -- default-centos-64:  -[mysqld][0m[37m
+I, [2014-07-10T13:23:24.675996 #43331]  INFO -- default-centos-64:  -datadir=/var/lib/mysql[0m[37m
+I, [2014-07-10T13:23:24.676010 #43331]  INFO -- default-centos-64:  -socket=/var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T13:23:24.676024 #43331]  INFO -- default-centos-64:  -user=mysql[0m[37m
+I, [2014-07-10T13:23:24.676053 #43331]  INFO -- default-centos-64:  -# Disabling symbolic-links is recommended to prevent assorted security risks[0m[37m
+I, [2014-07-10T13:23:24.676069 #43331]  INFO -- default-centos-64:  -symbolic-links=0[0m[37m
+I, [2014-07-10T13:23:24.676084 #43331]  INFO -- default-centos-64:  +[client][0m[37m
+I, [2014-07-10T13:23:24.676099 #43331]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T13:23:24.676114 #43331]  INFO -- default-centos-64:  +socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T13:23:24.676145 #43331]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T13:23:24.676175 #43331]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T13:23:24.676192 #43331]  INFO -- default-centos-64:  -log-error=/var/log/mysqld.log[0m[37m
+I, [2014-07-10T13:23:24.676206 #43331]  INFO -- default-centos-64:  -pid-file=/var/run/mysqld/mysqld.pid[0m[37m
+I, [2014-07-10T13:23:24.676221 #43331]  INFO -- default-centos-64:  +socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T13:23:24.676237 #43331]  INFO -- default-centos-64:  +[0m[37m
+I, [2014-07-10T13:23:24.676251 #43331]  INFO -- default-centos-64:  +[mysqld][0m[37m
+I, [2014-07-10T13:23:24.676274 #43331]  INFO -- default-centos-64:  +user                           = mysql[0m[37m
+I, [2014-07-10T13:23:24.676289 #43331]  INFO -- default-centos-64:  +pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T13:23:24.676306 #43331]  INFO -- default-centos-64:  +socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T13:23:24.676321 #43331]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T13:23:24.676336 #43331]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T13:23:24.676349 #43331]  INFO -- default-centos-64:  +[0m[37m
+I, [2014-07-10T13:23:24.676367 #43331]  INFO -- default-centos-64:  +[mysql][0m[37m
+I, [2014-07-10T13:23:24.676383 #43331]  INFO -- default-centos-64:  +!includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T13:23:24.677469 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] owner changed to 27
+I, [2014-07-10T13:23:24.677507 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] group changed to 27
+I, [2014-07-10T13:23:24.677523 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] mode changed to 600
+I, [2014-07-10T13:23:24.677539 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.677552 #43331]  INFO -- default-centos-64:     - change mode from '0644' to '0600'[0m[32m
+I, [2014-07-10T13:23:24.677563 #43331]  INFO -- default-centos-64:     - change owner from 'root' to 'mysql'[0m[32m
+I, [2014-07-10T13:23:24.677574 #43331]  INFO -- default-centos-64:     - change group from 'root' to 'mysql'[0m
+I, [2014-07-10T13:23:24.837399 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:24.837467 #43331]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T13:23:24.838083 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:24.838127 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:24.839187 #43331]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T17:23:23+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T13:23:24.839227 #43331]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T13:23:24.839248 #43331]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T17:23:23+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T13:23:25.036251 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: execute[assign-root-password] ran successfully
+I, [2014-07-10T13:23:25.036358 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:25.036389 #43331]  INFO -- default-centos-64:     - execute /usr/bin/mysqladmin -u root password ilikerandompasswords[0m
+I, [2014-07-10T13:23:25.036415 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:25.036438 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/mysql_grants.sql] sending run action to execute[install-grants] (delayed)
+I, [2014-07-10T13:23:25.037075 #43331]  INFO -- default-centos-64:   * execute[install-grants] action run[0m[2014-07-10T17:23:23+00:00] INFO: Processing execute[install-grants] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T13:23:25.076545 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: execute[install-grants] ran successfully
+I, [2014-07-10T13:23:25.076612 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:25.076636 #43331]  INFO -- default-centos-64:     - execute /usr/bin/mysql -u root -pilikerandompasswords < /etc/mysql_grants.sql[0m
+I, [2014-07-10T13:23:25.076655 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:25.076673 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:23+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T13:23:25.076691 #43331]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T17:23:23+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T13:23:29.219140 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:27+00:00] INFO: bash[move mysql data to datadir] ran successfully
+I, [2014-07-10T13:23:29.219228 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:29.219260 #43331]  INFO -- default-centos-64:     - execute "bash"  "/tmp/chef-script20140710-3123-tlch2"[0m
+I, [2014-07-10T13:23:29.219955 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:29.220010 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:29.220051 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:27+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T13:23:29.220084 #43331]  INFO -- default-centos-64:   * service[mysqld] action restart[0m
+I, [2014-07-10T13:23:29.220943 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:27+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T13:23:30.717292 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:29+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T13:23:30.717343 #43331]  INFO -- default-centos-64: [32m
+I, [2014-07-10T13:23:30.717359 #43331]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T13:23:30.717502 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:30.717532 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:30.717594 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:30.717617 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:30.739823 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:29+00:00] INFO: Chef Run complete in 122.673660358 seconds
+I, [2014-07-10T13:23:30.742077 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:23:30.742108 #43331]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T13:23:30.742124 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:29+00:00] INFO: Running report handlers
+I, [2014-07-10T13:23:30.742138 #43331]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T13:23:30.742151 #43331]  INFO -- default-centos-64: [0m
+I, [2014-07-10T13:23:30.742168 #43331]  INFO -- default-centos-64: [2014-07-10T17:23:29+00:00] INFO: Report handlers complete
+I, [2014-07-10T13:23:30.742180 #43331]  INFO -- default-centos-64: Chef Client finished, 17/18 resources updated in 133.20550632 seconds[0m
+I, [2014-07-10T13:23:32.774769 #43331]  INFO -- default-centos-64: Finished converging <default-centos-64> (4m31.91s).
+I, [2014-07-10T13:23:32.774877 #43331]  INFO -- default-centos-64: -----> Setting up <default-centos-64>...
+Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  2%)Fetching: thor-0.19.0.gem (  4%)Fetching: thor-0.19.0.gem (  5%)Fetching: thor-0.19.0.gem (  7%)Fetching: thor-0.19.0.gem (  8%)Fetching: thor-0.19.0.gem ( 11%)Fetching: thor-0.19.0.gem ( 14%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 16%)Fetching: thor-0.19.0.gem ( 19%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 25%)Fetching: thor-0.19.0.gem ( 36%)Fetching: thor-0.19.0.gem ( 37%)Fetching: thor-0.19.0.gem ( 39%)Fetching: thor-0.19.0.gem ( 40%)Fetching: thor-0.19.0.gem ( 42%)Fetching: thor-0.19.0.gem ( 52%)Fetching: thor-0.19.0.gem ( 55%)Fetching: thor-0.19.0.gem ( 56%)Fetching: thor-0.19.0.gem ( 58%)Fetching: thor-0.19.0.gem ( 60%)Fetching: thor-0.19.0.gem ( 74%)Fetching: thor-0.19.0.gem ( 76%)Fetching: thor-0.19.0.gem ( 79%)Fetching: thor-0.19.0.gem ( 81%)Fetching: thor-0.19.0.gem ( 86%)Fetching: thor-0.19.0.gem ( 90%)Fetching: thor-0.19.0.gem ( 91%)I, [2014-07-10T13:24:25.141137 #43331]  INFO -- default-centos-64: Fetching: thor-0.19.0.gem ( 92%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+Fetching: busser-0.6.2.gemFetching: busser-0.6.2.gem (  5%)Fetching: busser-0.6.2.gem ( 32%)Fetching: busser-0.6.2.gem ( 45%)Fetching: busser-0.6.2.gem ( 58%)I, [2014-07-10T13:24:25.524528 #43331]  INFO -- default-centos-64: Fetching: busser-0.6.2.gem ( 89%)Fetching: busser-0.6.2.gem (100%)Fetching: busser-0.6.2.gem (100%)
+I, [2014-07-10T13:24:25.539625 #43331]  INFO -- default-centos-64: Successfully installed thor-0.19.0
+I, [2014-07-10T13:24:25.539720 #43331]  INFO -- default-centos-64: Successfully installed busser-0.6.2
+I, [2014-07-10T13:24:25.539741 #43331]  INFO -- default-centos-64: 2 gems installed
+I, [2014-07-10T13:24:25.697151 #43331]  INFO -- default-centos-64: -----> Setting up Busser
+I, [2014-07-10T13:24:25.697216 #43331]  INFO -- default-centos-64: Creating BUSSER_ROOT in /tmp/busser
+I, [2014-07-10T13:24:25.697237 #43331]  INFO -- default-centos-64: Creating busser binstub
+I, [2014-07-10T13:24:46.863495 #43331]  INFO -- default-centos-64: Plugin serverspec installed (version 0.2.6)
+I, [2014-07-10T13:24:46.865949 #43331]  INFO -- default-centos-64: -----> Running postinstall for serverspec plugin
+I, [2014-07-10T13:25:17.338285 #43331]  INFO -- default-centos-64: Finished setting up <default-centos-64> (1m44.56s).
+I, [2014-07-10T13:25:17.338374 #43331]  INFO -- default-centos-64: -----> Verifying <default-centos-64>...
+I, [2014-07-10T13:25:17.643949 #43331]  INFO -- default-centos-64: Suite path directory /tmp/busser/suites does not exist, skipping.
+I, [2014-07-10T13:25:17.781683 #43331]  INFO -- default-centos-64: Uploading /tmp/busser/suites/serverspec/hello_spec.rb (mode=0644)
+I, [2014-07-10T13:25:18.192894 #43331]  INFO -- default-centos-64: -----> Running serverspec test suite
+I, [2014-07-10T13:25:18.280495 #43331]  INFO -- default-centos-64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -S /opt/chef/embedded/bin/rspec /tmp/busser/suites/serverspec/hello_spec.rb --color --format documentation
+I, [2014-07-10T13:25:18.415356 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:25:18.415409 #43331]  INFO -- default-centos-64: Command "curl -L localhost | grep 'hello there'"
+I, [2014-07-10T13:25:18.437449 #43331]  INFO -- default-centos-64:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+I, [2014-07-10T13:25:18.437515 #43331]  INFO -- default-centos-64:                           Dload  Upload   Total   Spent    Left  Speed
+I, [2014-07-10T13:25:18.437534 #43331]  INFO -- default-centos-64:   0    11    0    11    0     0    965      0 --:--:-- --:--:-- --:--:--   965  0    11    0    11    0     0    954      0 --:--:-- --:--:-- --:--:--     0
+I, [2014-07-10T13:25:18.437548 #43331]  INFO -- default-centos-64: [32m  should return exit status 0[0m
+I, [2014-07-10T13:25:18.437570 #43331]  INFO -- default-centos-64: 
+I, [2014-07-10T13:25:18.437582 #43331]  INFO -- default-centos-64: Finished in 0.01971 seconds
+I, [2014-07-10T13:25:18.437594 #43331]  INFO -- default-centos-64: [32m1 example, 0 failures[0m
+I, [2014-07-10T13:25:18.461624 #43331]  INFO -- default-centos-64: Finished verifying <default-centos-64> (0m1.12s).
+I, [2014-07-10T13:25:18.462478 #43331]  INFO -- default-centos-64: -----> Destroying <default-centos-64>...
+I, [2014-07-10T13:25:19.858893 #43331]  INFO -- default-centos-64: ==> default: Forcing shutdown of VM...
+I, [2014-07-10T13:25:21.004927 #43331]  INFO -- default-centos-64: ==> default: Destroying VM and associated drives...
+I, [2014-07-10T13:25:21.260828 #43331]  INFO -- default-centos-64: Vagrant instance <default-centos-64> destroyed.
+I, [2014-07-10T13:25:21.261793 #43331]  INFO -- default-centos-64: Finished destroying <default-centos-64> (0m2.80s).
+I, [2014-07-10T13:25:21.262759 #43331]  INFO -- default-centos-64: Finished testing <default-centos-64> (7m5.59s).
