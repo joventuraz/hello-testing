@@ -156,3 +156,598 @@ I, [2014-07-10T13:23:32.774853 #43331]  INFO -- Kitchen: -----> Setting up <defa
 I, [2014-07-10T13:25:17.338353 #43331]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
 I, [2014-07-10T13:25:18.462440 #43331]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
 I, [2014-07-10T13:25:21.263077 #43331]  INFO -- Kitchen: -----> Kitchen is finished. (7m6.09s)
+I, [2014-07-10T15:22:06.056773 #48047]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:22:06.848274 #48047]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T15:22:47.590923 #48047]  INFO -- Kitchen: -----> Kitchen is finished. (0m41.53s)
+I, [2014-07-10T15:42:28.494745 #48252]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:42:29.291167 #48252]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-10T15:42:29.301473 #48252] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:42:29.301503 #48252] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:42:29.301528 #48252] ERROR -- Kitchen: Message: Failed to complete #converge action: [Berkshelf::BerksfileReadError]
+E, [2014-07-10T15:42:29.301542 #48252] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:42:29.301562 #48252] ERROR -- Kitchen: Class: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:42:29.301595 #48252] ERROR -- Kitchen: Message: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:42:29.301606 #48252] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:42:29.301617 #48252] ERROR -- Kitchen: /Users/user/Developer/cookbooks/hello/Berksfile:1:in `block in dsl_eval_file'
+E, [2014-07-10T15:42:29.301629 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `eval'
+E, [2014-07-10T15:42:29.301640 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `block in dsl_eval_file'
+E, [2014-07-10T15:42:29.301651 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `instance_eval'
+E, [2014-07-10T15:42:29.301662 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `dsl_eval'
+E, [2014-07-10T15:42:29.301674 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `dsl_eval_file'
+E, [2014-07-10T15:42:29.301685 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/berksfile.rb:12:in `from_file'
+E, [2014-07-10T15:42:29.301696 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:57:in `block in resolve'
+E, [2014-07-10T15:42:29.301707 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.18.1/lib/thor/shell/basic.rb:19:in `mute'
+E, [2014-07-10T15:42:29.301718 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:51:in `resolve'
+E, [2014-07-10T15:42:29.301729 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:394:in `block in resolve_with_berkshelf'
+E, [2014-07-10T15:42:29.301740 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `synchronize'
+E, [2014-07-10T15:42:29.301751 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `resolve_with_berkshelf'
+E, [2014-07-10T15:42:29.301787 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:259:in `prepare_cookbooks'
+E, [2014-07-10T15:42:29.301798 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:120:in `create_sandbox'
+E, [2014-07-10T15:42:29.301809 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_zero.rb:35:in `create_sandbox'
+E, [2014-07-10T15:42:29.301820 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:40:in `converge'
+E, [2014-07-10T15:42:29.301832 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T15:42:29.301843 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:42:29.301854 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:42:29.301865 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T15:42:29.301876 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T15:42:29.301887 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:42:29.301904 #48252] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:42:29.301917 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:42:29.301928 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:42:29.301940 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T15:42:29.301951 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:42:29.301962 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:42:29.301973 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:42:29.301984 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T15:42:29.302007 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:42:29.302018 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:42:29.302029 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-07-10T15:42:29.302040 #48252] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-07-10T15:42:29.302052 #48252] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:42:48.896479 #48287]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:42:49.679003 #48287]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T15:42:52.423316 #48287]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.53s)
+I, [2014-07-10T15:42:52.928349 #48331]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:42:53.690211 #48331]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T15:43:35.773227 #48331]  INFO -- Kitchen: -----> Kitchen is finished. (0m42.84s)
+I, [2014-07-10T15:44:07.956670 #48465]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:44:08.714844 #48465]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-10T15:44:08.724064 #48465] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:44:08.724093 #48465] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:44:08.724107 #48465] ERROR -- Kitchen: Message: Failed to complete #converge action: [Berkshelf::BerksfileReadError]
+E, [2014-07-10T15:44:08.724129 #48465] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:44:08.724155 #48465] ERROR -- Kitchen: Class: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:44:08.724168 #48465] ERROR -- Kitchen: Message: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:44:08.724179 #48465] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:44:08.724190 #48465] ERROR -- Kitchen: /Users/user/Developer/cookbooks/hello/Berksfile:1:in `block in dsl_eval_file'
+E, [2014-07-10T15:44:08.724200 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `eval'
+E, [2014-07-10T15:44:08.724211 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `block in dsl_eval_file'
+E, [2014-07-10T15:44:08.724222 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `instance_eval'
+E, [2014-07-10T15:44:08.724242 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `dsl_eval'
+E, [2014-07-10T15:44:08.724255 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `dsl_eval_file'
+E, [2014-07-10T15:44:08.724266 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/berksfile.rb:12:in `from_file'
+E, [2014-07-10T15:44:08.724277 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:57:in `block in resolve'
+E, [2014-07-10T15:44:08.724287 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.18.1/lib/thor/shell/basic.rb:19:in `mute'
+E, [2014-07-10T15:44:08.724297 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:51:in `resolve'
+E, [2014-07-10T15:44:08.724308 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:394:in `block in resolve_with_berkshelf'
+E, [2014-07-10T15:44:08.724318 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `synchronize'
+E, [2014-07-10T15:44:08.724328 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `resolve_with_berkshelf'
+E, [2014-07-10T15:44:08.724361 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:259:in `prepare_cookbooks'
+E, [2014-07-10T15:44:08.724372 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:120:in `create_sandbox'
+E, [2014-07-10T15:44:08.724382 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_zero.rb:35:in `create_sandbox'
+E, [2014-07-10T15:44:08.724392 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:40:in `converge'
+E, [2014-07-10T15:44:08.724402 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T15:44:08.724413 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:44:08.724423 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:44:08.724433 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T15:44:08.724443 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T15:44:08.724454 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:44:08.724475 #48465] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:44:08.724486 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:44:08.724505 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:44:08.724516 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T15:44:08.724526 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:44:08.724536 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:44:08.724552 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:44:08.724564 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:141:in `verify'
+E, [2014-07-10T15:44:08.724585 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:44:08.724595 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:44:08.724606 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-07-10T15:44:08.724616 #48465] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-07-10T15:44:08.724626 #48465] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:44:25.092757 #48484]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:44:25.862405 #48484]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-10T15:44:25.872312 #48484] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:44:25.872340 #48484] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:44:25.872367 #48484] ERROR -- Kitchen: Message: Failed to complete #converge action: [Berkshelf::BerksfileReadError]
+E, [2014-07-10T15:44:25.872380 #48484] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:44:25.872402 #48484] ERROR -- Kitchen: Class: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:44:25.872413 #48484] ERROR -- Kitchen: Message: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:44:25.872438 #48484] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:44:25.872459 #48484] ERROR -- Kitchen: /Users/user/Developer/cookbooks/hello/Berksfile:1:in `block in dsl_eval_file'
+E, [2014-07-10T15:44:25.872482 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `eval'
+E, [2014-07-10T15:44:25.872493 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `block in dsl_eval_file'
+E, [2014-07-10T15:44:25.872515 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `instance_eval'
+E, [2014-07-10T15:44:25.872526 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `dsl_eval'
+E, [2014-07-10T15:44:25.872546 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `dsl_eval_file'
+E, [2014-07-10T15:44:25.872557 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/berksfile.rb:12:in `from_file'
+E, [2014-07-10T15:44:25.872568 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:57:in `block in resolve'
+E, [2014-07-10T15:44:25.872581 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.18.1/lib/thor/shell/basic.rb:19:in `mute'
+E, [2014-07-10T15:44:25.872592 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:51:in `resolve'
+E, [2014-07-10T15:44:25.872603 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:394:in `block in resolve_with_berkshelf'
+E, [2014-07-10T15:44:25.872613 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `synchronize'
+E, [2014-07-10T15:44:25.872624 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `resolve_with_berkshelf'
+E, [2014-07-10T15:44:25.872643 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:259:in `prepare_cookbooks'
+E, [2014-07-10T15:44:25.872657 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:120:in `create_sandbox'
+E, [2014-07-10T15:44:25.872668 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_zero.rb:35:in `create_sandbox'
+E, [2014-07-10T15:44:25.872681 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:40:in `converge'
+E, [2014-07-10T15:44:25.872706 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T15:44:25.872717 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:44:25.872727 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:44:25.872738 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T15:44:25.872749 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T15:44:25.872759 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:44:25.872769 #48484] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:44:25.872780 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:44:25.872793 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:44:25.872803 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T15:44:25.872814 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:44:25.872824 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:44:25.872835 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:44:25.872845 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T15:44:25.872855 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:44:25.872866 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:44:25.872876 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-07-10T15:44:25.872888 #48484] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-07-10T15:44:25.872899 #48484] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:45:05.826152 #48509]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:45:06.390606 #48521]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:45:06.618529 #48509]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-10T15:45:06.628174 #48509] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:45:06.628205 #48509] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:45:06.628240 #48509] ERROR -- Kitchen: Message: Failed to complete #converge action: [Berkshelf::BerksfileReadError]
+E, [2014-07-10T15:45:06.628256 #48509] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:45:06.628269 #48509] ERROR -- Kitchen: Class: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:45:06.628298 #48509] ERROR -- Kitchen: Message: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:45:06.628311 #48509] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:45:06.628322 #48509] ERROR -- Kitchen: /Users/user/Developer/cookbooks/hello/Berksfile:1:in `block in dsl_eval_file'
+E, [2014-07-10T15:45:06.628333 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `eval'
+E, [2014-07-10T15:45:06.628345 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `block in dsl_eval_file'
+E, [2014-07-10T15:45:06.628356 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `instance_eval'
+E, [2014-07-10T15:45:06.628367 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `dsl_eval'
+E, [2014-07-10T15:45:06.628378 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `dsl_eval_file'
+E, [2014-07-10T15:45:06.628389 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/berksfile.rb:12:in `from_file'
+E, [2014-07-10T15:45:06.628400 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:57:in `block in resolve'
+E, [2014-07-10T15:45:06.628411 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.18.1/lib/thor/shell/basic.rb:19:in `mute'
+E, [2014-07-10T15:45:06.628422 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:51:in `resolve'
+E, [2014-07-10T15:45:06.628433 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:394:in `block in resolve_with_berkshelf'
+E, [2014-07-10T15:45:06.628444 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `synchronize'
+E, [2014-07-10T15:45:06.628455 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `resolve_with_berkshelf'
+E, [2014-07-10T15:45:06.628488 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:259:in `prepare_cookbooks'
+E, [2014-07-10T15:45:06.628500 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:120:in `create_sandbox'
+E, [2014-07-10T15:45:06.628511 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_zero.rb:35:in `create_sandbox'
+E, [2014-07-10T15:45:06.628522 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:40:in `converge'
+E, [2014-07-10T15:45:06.628533 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T15:45:06.628544 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:45:06.628555 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:45:06.628566 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T15:45:06.628577 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T15:45:06.628594 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:45:06.628607 #48509] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:45:06.628619 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:45:06.628630 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:45:06.628641 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T15:45:06.628652 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:45:06.628663 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:45:06.628674 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:45:06.628685 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T15:45:06.628706 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:45:06.628717 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:45:06.628728 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-07-10T15:45:06.628739 #48509] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-07-10T15:45:06.628750 #48509] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:45:07.165335 #48521]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-10T15:45:07.174939 #48521] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:45:07.174983 #48521] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:45:07.175015 #48521] ERROR -- Kitchen: Message: Failed to complete #converge action: [Berkshelf::BerksfileReadError]
+E, [2014-07-10T15:45:07.175030 #48521] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:45:07.175052 #48521] ERROR -- Kitchen: Class: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:45:07.175074 #48521] ERROR -- Kitchen: Message: Berkshelf::BerksfileReadError
+E, [2014-07-10T15:45:07.175085 #48521] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:45:07.175096 #48521] ERROR -- Kitchen: /Users/user/Developer/cookbooks/hello/Berksfile:1:in `block in dsl_eval_file'
+E, [2014-07-10T15:45:07.175124 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `eval'
+E, [2014-07-10T15:45:07.175135 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `block in dsl_eval_file'
+E, [2014-07-10T15:45:07.175146 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `instance_eval'
+E, [2014-07-10T15:45:07.175160 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:44:in `dsl_eval'
+E, [2014-07-10T15:45:07.175171 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/mixin/dsl_eval.rb:54:in `dsl_eval_file'
+E, [2014-07-10T15:45:07.175181 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/berkshelf-2.0.18/lib/berkshelf/berksfile.rb:12:in `from_file'
+E, [2014-07-10T15:45:07.175201 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:57:in `block in resolve'
+E, [2014-07-10T15:45:07.175215 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.18.1/lib/thor/shell/basic.rb:19:in `mute'
+E, [2014-07-10T15:45:07.175226 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:51:in `resolve'
+E, [2014-07-10T15:45:07.175236 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:394:in `block in resolve_with_berkshelf'
+E, [2014-07-10T15:45:07.175247 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `synchronize'
+E, [2014-07-10T15:45:07.175257 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:393:in `resolve_with_berkshelf'
+E, [2014-07-10T15:45:07.175271 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:259:in `prepare_cookbooks'
+E, [2014-07-10T15:45:07.175282 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:120:in `create_sandbox'
+E, [2014-07-10T15:45:07.175293 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_zero.rb:35:in `create_sandbox'
+E, [2014-07-10T15:45:07.175303 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:40:in `converge'
+E, [2014-07-10T15:45:07.175314 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T15:45:07.175324 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:45:07.175335 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:45:07.175345 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T15:45:07.175356 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T15:45:07.175369 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:45:07.175380 #48521] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:45:07.175390 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:45:07.175415 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:45:07.175426 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T15:45:07.175436 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:45:07.175447 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:45:07.175457 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:45:07.175470 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T15:45:07.175481 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:45:07.175497 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:45:07.175509 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+E, [2014-07-10T15:45:07.175520 #48521] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+E, [2014-07-10T15:45:07.175531 #48521] ERROR -- Kitchen: ----------------------
+E, [2014-07-10T15:52:19.169526 #48983] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:52:19.169562 #48983] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-07-10T15:52:19.169581 #48983] ERROR -- Kitchen: Message: Could not load or activate Berkshelf (cannot load such file -- berkshelf)
+E, [2014-07-10T15:52:19.169598 #48983] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:52:19.169613 #48983] ERROR -- Kitchen: Class: LoadError
+E, [2014-07-10T15:52:19.169627 #48983] ERROR -- Kitchen: Message: cannot load such file -- berkshelf
+E, [2014-07-10T15:52:19.169642 #48983] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:52:19.169659 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:80:in `rescue in load_berkshelf!'
+E, [2014-07-10T15:52:19.169675 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:67:in `load_berkshelf!'
+E, [2014-07-10T15:52:19.169690 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:43:in `load!'
+E, [2014-07-10T15:52:19.169705 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:135:in `load_needed_dependencies!'
+E, [2014-07-10T15:52:19.169720 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/base.rb:44:in `instance='
+E, [2014-07-10T15:52:19.169734 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:240:in `setup_provisioner'
+E, [2014-07-10T15:52:19.169749 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:93:in `initialize'
+E, [2014-07-10T15:52:19.169763 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new'
+E, [2014-07-10T15:52:19.169777 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new_instance'
+E, [2014-07-10T15:52:19.169795 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-07-10T15:52:19.169811 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `map'
+E, [2014-07-10T15:52:19.169839 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-07-10T15:52:19.169856 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-07-10T15:52:19.169871 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-07-10T15:52:19.169886 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-07-10T15:52:19.169900 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-07-10T15:52:19.169914 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/list.rb:31:in `call'
+E, [2014-07-10T15:52:19.169945 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-07-10T15:52:19.169963 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:81:in `list'
+E, [2014-07-10T15:52:19.169978 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-07-10T15:52:19.169992 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-07-10T15:52:19.170006 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-07-10T15:52:19.170020 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-07-10T15:52:19.170034 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-07-10T15:52:19.170048 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-07-10T15:52:19.170062 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-07-10T15:52:19.170080 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-07-10T15:52:19.170095 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `load'
+E, [2014-07-10T15:52:19.170109 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `<main>'
+E, [2014-07-10T15:52:19.170122 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-07-10T15:52:19.170137 #48983] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-07-10T15:52:19.170151 #48983] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:53:20.619162 #49050]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:53:21.217008 #49050]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T15:57:41.958218 #49050]  INFO -- Kitchen: -----> Kitchen is finished. (4m21.34s)
+I, [2014-07-10T15:57:58.403737 #49091]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-07-10T15:57:58.662709 #49091] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:57:58.662737 #49091] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-07-10T15:57:58.662752 #49091] ERROR -- Kitchen: Message: Could not load or activate Berkshelf (cannot load such file -- berkshelf)
+E, [2014-07-10T15:57:58.662765 #49091] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:57:58.662777 #49091] ERROR -- Kitchen: Class: LoadError
+E, [2014-07-10T15:57:58.662788 #49091] ERROR -- Kitchen: Message: cannot load such file -- berkshelf
+E, [2014-07-10T15:57:58.662800 #49091] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:57:58.662812 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:80:in `rescue in load_berkshelf!'
+E, [2014-07-10T15:57:58.662823 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:67:in `load_berkshelf!'
+E, [2014-07-10T15:57:58.662838 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:43:in `load!'
+E, [2014-07-10T15:57:58.662850 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:135:in `load_needed_dependencies!'
+E, [2014-07-10T15:57:58.662862 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/base.rb:44:in `instance='
+E, [2014-07-10T15:57:58.662902 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:240:in `setup_provisioner'
+E, [2014-07-10T15:57:58.662927 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:93:in `initialize'
+E, [2014-07-10T15:57:58.662942 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new'
+E, [2014-07-10T15:57:58.662954 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new_instance'
+E, [2014-07-10T15:57:58.662966 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-07-10T15:57:58.662977 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `map'
+E, [2014-07-10T15:57:58.662992 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-07-10T15:57:58.663004 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-07-10T15:57:58.663015 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-07-10T15:57:58.663027 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-07-10T15:57:58.663038 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-07-10T15:57:58.663095 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-07-10T15:57:58.663107 #49091] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:57:58.663118 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-07-10T15:57:58.663132 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-07-10T15:57:58.663144 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:118:in `block (2 levels) in <class:CLI>'
+E, [2014-07-10T15:57:58.663156 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-07-10T15:57:58.663167 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-07-10T15:57:58.663178 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-07-10T15:57:58.663190 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-07-10T15:57:58.663201 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-07-10T15:57:58.663212 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-07-10T15:57:58.663224 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-07-10T15:57:58.663237 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-07-10T15:57:58.663249 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `load'
+E, [2014-07-10T15:57:58.663260 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `<main>'
+E, [2014-07-10T15:57:58.663271 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-07-10T15:57:58.663317 #49091] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-07-10T15:57:58.663335 #49091] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:58:12.355612 #49107]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-07-10T15:58:12.606412 #49107] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:58:12.606441 #49107] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-07-10T15:58:12.606456 #49107] ERROR -- Kitchen: Message: Could not load or activate Berkshelf (cannot load such file -- berkshelf)
+E, [2014-07-10T15:58:12.606511 #49107] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:58:12.606524 #49107] ERROR -- Kitchen: Class: LoadError
+E, [2014-07-10T15:58:12.606536 #49107] ERROR -- Kitchen: Message: cannot load such file -- berkshelf
+E, [2014-07-10T15:58:12.606548 #49107] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:58:12.606560 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:80:in `rescue in load_berkshelf!'
+E, [2014-07-10T15:58:12.606571 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:67:in `load_berkshelf!'
+E, [2014-07-10T15:58:12.606583 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:43:in `load!'
+E, [2014-07-10T15:58:12.606595 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:135:in `load_needed_dependencies!'
+E, [2014-07-10T15:58:12.606609 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/base.rb:44:in `instance='
+E, [2014-07-10T15:58:12.606621 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:240:in `setup_provisioner'
+E, [2014-07-10T15:58:12.606633 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:93:in `initialize'
+E, [2014-07-10T15:58:12.606645 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new'
+E, [2014-07-10T15:58:12.606656 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new_instance'
+E, [2014-07-10T15:58:12.606668 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-07-10T15:58:12.606680 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `map'
+E, [2014-07-10T15:58:12.606692 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-07-10T15:58:12.606709 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-07-10T15:58:12.606722 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-07-10T15:58:12.606733 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-07-10T15:58:12.606745 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-07-10T15:58:12.606756 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-07-10T15:58:12.606793 #49107] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:58:12.606804 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-07-10T15:58:12.606816 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-07-10T15:58:12.606828 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:118:in `block (2 levels) in <class:CLI>'
+E, [2014-07-10T15:58:12.606858 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-07-10T15:58:12.606873 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-07-10T15:58:12.606885 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-07-10T15:58:12.606897 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-07-10T15:58:12.606909 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-07-10T15:58:12.606920 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-07-10T15:58:12.606942 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-07-10T15:58:12.606954 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-07-10T15:58:12.606965 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `load'
+E, [2014-07-10T15:58:12.606976 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `<main>'
+E, [2014-07-10T15:58:12.606990 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-07-10T15:58:12.607002 #49107] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-07-10T15:58:12.607014 #49107] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:58:16.155418 #49140]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-07-10T15:58:16.411308 #49140] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:58:16.411334 #49140] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-07-10T15:58:16.411348 #49140] ERROR -- Kitchen: Message: Could not load or activate Berkshelf (cannot load such file -- berkshelf)
+E, [2014-07-10T15:58:16.411360 #49140] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:58:16.411381 #49140] ERROR -- Kitchen: Class: LoadError
+E, [2014-07-10T15:58:16.411392 #49140] ERROR -- Kitchen: Message: cannot load such file -- berkshelf
+E, [2014-07-10T15:58:16.411403 #49140] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:58:16.411481 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:80:in `rescue in load_berkshelf!'
+E, [2014-07-10T15:58:16.411494 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:67:in `load_berkshelf!'
+E, [2014-07-10T15:58:16.411515 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef/berkshelf.rb:43:in `load!'
+E, [2014-07-10T15:58:16.411526 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/chef_base.rb:135:in `load_needed_dependencies!'
+E, [2014-07-10T15:58:16.411537 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/provisioner/base.rb:44:in `instance='
+E, [2014-07-10T15:58:16.411548 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:240:in `setup_provisioner'
+E, [2014-07-10T15:58:16.411558 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:93:in `initialize'
+E, [2014-07-10T15:58:16.411569 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new'
+E, [2014-07-10T15:58:16.411580 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:128:in `new_instance'
+E, [2014-07-10T15:58:16.411609 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-07-10T15:58:16.411623 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `map'
+E, [2014-07-10T15:58:16.411634 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-07-10T15:58:16.411644 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-07-10T15:58:16.411655 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-07-10T15:58:16.411666 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-07-10T15:58:16.411677 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-07-10T15:58:16.411725 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-07-10T15:58:16.411741 #49140] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:58:16.411752 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-07-10T15:58:16.411762 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-07-10T15:58:16.411773 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:118:in `block (2 levels) in <class:CLI>'
+E, [2014-07-10T15:58:16.411783 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-07-10T15:58:16.411794 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-07-10T15:58:16.411804 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-07-10T15:58:16.411815 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-07-10T15:58:16.411836 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-07-10T15:58:16.411846 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-07-10T15:58:16.411856 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-07-10T15:58:16.411866 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-07-10T15:58:16.411914 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `load'
+E, [2014-07-10T15:58:16.411924 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/kitchen:23:in `<main>'
+E, [2014-07-10T15:58:16.411934 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-07-10T15:58:16.411945 #49140] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-07-10T15:58:16.411955 #49140] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:59:14.581061 #49191]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:59:15.034746 #49191]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+E, [2014-07-10T15:59:17.404218 #49191] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:59:17.404282 #49191] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:59:17.404317 #49191] ERROR -- Kitchen: Message: Failed to complete #create action: [Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+STDERR: /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/env.rb:18:in `initialize': undefined method `scope' for #<Vagrant::UI::Colored:0x00000102cc6228> (NoMethodError)
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `new'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `block in setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/plugin.rb:15:in `provision'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `tap'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `block in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `map'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:196:in `action_raw'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:173:in `block in action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:434:in `lock'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1]
+E, [2014-07-10T15:59:17.404340 #49191] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:59:17.404357 #49191] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2014-07-10T15:59:17.404373 #49191] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+STDERR: /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/env.rb:18:in `initialize': undefined method `scope' for #<Vagrant::UI::Colored:0x00000102cc6228> (NoMethodError)
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `new'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `block in setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/plugin.rb:15:in `provision'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `tap'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `block in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `map'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:196:in `action_raw'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:173:in `block in action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:434:in `lock'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/logging-1.8.2/lib/logging/diagnostic_context.rb:323:in `block in create_with_logging_context'
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1
+E, [2014-07-10T15:59:17.404402 #49191] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:59:17.404421 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2014-07-10T15:59:17.404438 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2014-07-10T15:59:17.404454 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2014-07-10T15:59:17.404470 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:123:in `run'
+E, [2014-07-10T15:59:17.404503 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:68:in `create'
+E, [2014-07-10T15:59:17.404520 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:59:17.404536 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:59:17.404552 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `call'
+E, [2014-07-10T15:59:17.404570 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `block in synchronize_or_call'
+E, [2014-07-10T15:59:17.404587 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize'
+E, [2014-07-10T15:59:17.404602 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize_or_call'
+E, [2014-07-10T15:59:17.404651 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:59:17.404667 #49191] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:59:17.404683 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:59:17.404698 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:59:17.404714 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-07-10T15:59:17.404737 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:59:17.404755 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:59:17.404771 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:59:17.404820 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:108:in `create'
+E, [2014-07-10T15:59:17.404846 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:59:17.404861 #49191] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:59:17.404875 #49191] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T15:59:37.581936 #49242]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T15:59:38.028458 #49242]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+E, [2014-07-10T15:59:40.106180 #49242] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-10T15:59:40.106225 #49242] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-10T15:59:40.106362 #49242] ERROR -- Kitchen: Message: Failed to complete #destroy action: [Expected process to exit with [0], but received '1'
+---- Begin output of vagrant destroy -f ----
+STDOUT: 
+STDERR: /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/env.rb:18:in `initialize': undefined method `scope' for #<Vagrant::UI::Colored:0x000001024ae0e0> (NoMethodError)
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `new'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `block in setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:47:in `block in clean'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:46:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:46:in `clean'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/plugin.rb:33:in `block in <class:Plugin>'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `tap'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `block in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `map'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:196:in `action_raw'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:173:in `block in action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:434:in `lock'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/plugins/commands/destroy/command.rb:31:in `block in execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:226:in `block in with_target_vms'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:220:in `each'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:220:in `with_target_vms'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/plugins/commands/destroy/command.rb:30:in `execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/cli.rb:42:in `execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:252:in `cli'
+	from /Applications/Vagrant/bin/../embedded/gems/gems/vagrant-1.6.3/bin/vagrant:166:in `<main>'
+---- End output of vagrant destroy -f ----
+Ran vagrant destroy -f returned 1]
+E, [2014-07-10T15:59:40.106406 #49242] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-10T15:59:40.106424 #49242] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2014-07-10T15:59:40.106437 #49242] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant destroy -f ----
+STDOUT: 
+STDERR: /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/env.rb:18:in `initialize': undefined method `scope' for #<Vagrant::UI::Colored:0x000001024ae0e0> (NoMethodError)
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `new'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:54:in `block in setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:53:in `setup'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:47:in `block in clean'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:46:in `tap'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/action.rb:46:in `clean'
+	from /Users/user/.vagrant.d/gems/gems/vagrant-berkshelf-1.3.7/lib/berkshelf/vagrant/plugin.rb:33:in `block in <class:Plugin>'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:42:in `block (2 levels) in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `tap'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:41:in `block in run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `map'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/action/runner.rb:40:in `run'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:196:in `action_raw'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:173:in `block in action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:434:in `lock'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `call'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/machine.rb:161:in `action'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/plugins/commands/destroy/command.rb:31:in `block in execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:226:in `block in with_target_vms'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:220:in `each'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/plugin/v2/command.rb:220:in `with_target_vms'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/plugins/commands/destroy/command.rb:30:in `execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/cli.rb:42:in `execute'
+	from /Applications/Vagrant/embedded/gems/gems/vagrant-1.6.3/lib/vagrant/environment.rb:252:in `cli'
+	from /Applications/Vagrant/bin/../embedded/gems/gems/vagrant-1.6.3/bin/vagrant:166:in `<main>'
+---- End output of vagrant destroy -f ----
+Ran vagrant destroy -f returned 1
+E, [2014-07-10T15:59:40.106459 #49242] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-10T15:59:40.106476 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2014-07-10T15:59:40.106493 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2014-07-10T15:59:40.106510 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2014-07-10T15:59:40.106526 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:123:in `run'
+E, [2014-07-10T15:59:40.106540 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:93:in `destroy'
+E, [2014-07-10T15:59:40.106553 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T15:59:40.106566 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T15:59:40.106583 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `call'
+E, [2014-07-10T15:59:40.106678 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `block in synchronize_or_call'
+E, [2014-07-10T15:59:40.106692 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize'
+E, [2014-07-10T15:59:40.106705 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize_or_call'
+E, [2014-07-10T15:59:40.106718 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T15:59:40.106730 #49242] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T15:59:40.106743 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T15:59:40.106756 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T15:59:40.106769 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:268:in `destroy_action'
+E, [2014-07-10T15:59:40.106782 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T15:59:40.106794 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T15:59:40.106807 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T15:59:40.106820 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:152:in `destroy'
+E, [2014-07-10T15:59:40.106832 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T15:59:40.106845 #49242] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T15:59:40.106858 #49242] ERROR -- Kitchen: ----------------------
+I, [2014-07-10T16:04:50.977017 #52427]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T16:04:51.452631 #52427]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:04:54.993882 #52427]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.02s)
+I, [2014-07-10T16:05:06.373658 #52478]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T16:05:06.839161 #52478]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T16:05:10.215181 #52478]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.84s)
+I, [2014-07-10T16:05:21.026186 #52547]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T16:05:21.477677 #52547]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:06:03.998869 #52547]  INFO -- Kitchen: -----> Kitchen is finished. (0m42.97s)
+I, [2014-07-10T16:06:58.781766 #52673]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T16:06:59.240525 #52673]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:11:34.128028 #52673]  INFO -- Kitchen: -----> Setting up <default-centos-64>...
+I, [2014-07-10T16:13:02.780797 #52673]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+I, [2014-07-10T16:13:03.911410 #52673]  INFO -- Kitchen: -----> Kitchen is finished. (6m5.13s)
+I, [2014-07-10T16:13:33.469563 #52707]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T16:13:33.922717 #52707]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+I, [2014-07-10T16:13:35.031097 #52707]  INFO -- Kitchen: -----> Kitchen is finished. (0m1.56s)
