@@ -18,7 +18,7 @@ describe 'hello::default' do
       )
   end
 
-  it "creates the default mysql_service" do
+  it 'creates the default mysql_service' do
     expect(chef_run).to create_mysql_service('default').with(
       port: '1234',
       data_dir: '/data'
