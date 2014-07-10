@@ -1,0 +1,148 @@
+I, [2014-07-09T18:50:25.291674 #36424]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T18:50:25.517534 #36424]  INFO -- Kitchen: -----> Creating <default-centos65>...
+E, [2014-07-09T18:50:28.829858 #36424] ERROR -- Kitchen: ------Exception-------
+E, [2014-07-09T18:50:28.829910 #36424] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-07-09T18:50:28.829932 #36424] ERROR -- Kitchen: Message: Failed to complete #create action: [Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'opscode-centos65' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Adding box 'opscode-centos65' (v0) for provider: virtualbox
+    default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos65_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K
+STDERR: An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+The requested URL returned error: 404 Not Found
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1]
+E, [2014-07-09T18:50:28.829950 #36424] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-07-09T18:50:28.829967 #36424] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2014-07-09T18:50:28.829988 #36424] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'opscode-centos65' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Adding box 'opscode-centos65' (v0) for provider: virtualbox
+    default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos65_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K
+STDERR: An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+The requested URL returned error: 404 Not Found
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1
+E, [2014-07-09T18:50:28.830008 #36424] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-07-09T18:50:28.830025 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2014-07-09T18:50:28.830041 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2014-07-09T18:50:28.830057 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2014-07-09T18:50:28.830073 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:123:in `run'
+E, [2014-07-09T18:50:28.830089 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:68:in `create'
+E, [2014-07-09T18:50:28.830105 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-09T18:50:28.830161 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-09T18:50:28.830183 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `call'
+E, [2014-07-09T18:50:28.830200 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `block in synchronize_or_call'
+E, [2014-07-09T18:50:28.830229 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize'
+E, [2014-07-09T18:50:28.830250 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize_or_call'
+E, [2014-07-09T18:50:28.830266 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-09T18:50:28.830282 #36424] ERROR -- Kitchen: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-09T18:50:28.830297 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-09T18:50:28.830313 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-09T18:50:28.830328 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-07-09T18:50:28.830348 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-09T18:50:28.830364 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-09T18:50:28.830379 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-09T18:50:28.830395 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:108:in `create'
+E, [2014-07-09T18:50:28.830410 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-09T18:50:28.830425 #36424] ERROR -- Kitchen: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-09T18:50:28.830441 #36424] ERROR -- Kitchen: ----------------------
+I, [2014-07-09T18:50:41.764931 #36468]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T18:50:41.988853 #36468]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-09T19:00:24.492407 #36468]  INFO -- Kitchen: -----> Kitchen is finished. (9m42.73s)
+I, [2014-07-09T19:09:18.520995 #36644]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:09:18.764810 #36644]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:11:11.601106 #36644] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:11:42.239792 #36670]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:11:42.468716 #36670]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:11:50.797828 #36670] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:13:43.083575 #36694]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:13:43.313710 #36694]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:13:51.668468 #36694] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:15:22.927305 #36724]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:15:23.158544 #36724]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:15:31.460256 #36724] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:15:57.680908 #36743]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:15:57.901498 #36743]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:16:06.224861 #36743] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:16:31.151495 #36769]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:16:31.383736 #36769]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+E, [2014-07-09T19:16:39.720609 #36769] ERROR -- Kitchen: Converge failed on instance <default-centos-64>.
+I, [2014-07-09T19:17:02.670788 #36790]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:17:02.901202 #36790]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-09T19:18:22.418170 #36790]  INFO -- Kitchen: -----> Kitchen is finished. (1m19.75s)
+I, [2014-07-09T19:20:07.003990 #36832]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:20:07.233128 #36832]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-09T19:20:17.138810 #36832]  INFO -- Kitchen: -----> Kitchen is finished. (0m10.13s)
+I, [2014-07-09T19:22:27.427673 #36875]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:22:27.658322 #36875]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-09T19:22:30.326975 #36875]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.90s)
+I, [2014-07-09T19:22:33.157379 #36921]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-09T19:22:33.389191 #36921]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-09T19:23:17.186964 #36921]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-09T19:27:16.486066 #36921]  INFO -- Kitchen: -----> Kitchen is finished. (4m43.33s)
+I, [2014-07-10T10:32:30.274295 #37230]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:32:30.544287 #37230]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T10:32:33.541027 #37230]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.27s)
+I, [2014-07-10T10:32:38.011760 #37276]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:32:38.269798 #37276]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T10:33:19.578887 #37276]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T10:36:37.390241 #37503]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:36:37.619321 #37503]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T10:36:40.325381 #37503]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.93s)
+I, [2014-07-10T10:36:46.219377 #37550]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:36:46.445500 #37550]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T10:37:04.000387 #37614]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:37:04.225074 #37614]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T10:37:04.226781 #37614]  INFO -- Kitchen: -----> Kitchen is finished. (0m0.23s)
+I, [2014-07-10T10:37:14.380764 #37634]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:37:14.607013 #37634]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T10:37:55.915031 #37634]  INFO -- Kitchen: -----> Kitchen is finished. (0m41.53s)
+I, [2014-07-10T10:38:01.807659 #37769]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:38:02.038430 #37769]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T10:41:57.136580 #37769]  INFO -- Kitchen: -----> Kitchen is finished. (3m55.33s)
+I, [2014-07-10T10:47:19.557116 #38020]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T10:47:19.783367 #38020]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T10:47:37.381760 #38020]  INFO -- Kitchen: -----> Kitchen is finished. (0m17.82s)
+I, [2014-07-10T11:26:44.347945 #38287]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T11:26:44.607332 #38287]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-64>
+I, [2014-07-10T11:26:44.608013 #38287]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T11:26:47.540372 #38287]  INFO -- Kitchen: -----> Testing <default-centos-64>
+I, [2014-07-10T11:26:47.540476 #38287]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T11:27:29.026482 #38287]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T11:33:23.121032 #38287]  INFO -- Kitchen: -----> Setting up <default-centos-64>...
+I, [2014-07-10T11:35:14.702304 #38287]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+E, [2014-07-10T11:35:15.961015 #38287] ERROR -- Kitchen: Verify failed on instance <default-centos-64>.
+I, [2014-07-10T11:39:26.883897 #42259]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T11:39:27.111995 #42259]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T11:39:44.360850 #42259]  INFO -- Kitchen: -----> Kitchen is finished. (0m17.48s)
+I, [2014-07-10T11:40:02.203041 #42282]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T11:40:02.433433 #42282]  INFO -- Kitchen: -----> Setting up <default-centos-64>...
+I, [2014-07-10T11:40:17.325528 #42282]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+E, [2014-07-10T11:40:18.408415 #42282] ERROR -- Kitchen: Verify failed on instance <default-centos-64>.
+I, [2014-07-10T11:42:25.863208 #42301]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T11:42:26.096921 #42301]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+I, [2014-07-10T11:42:27.196210 #42301]  INFO -- Kitchen: -----> Kitchen is finished. (0m1.33s)
+I, [2014-07-10T12:35:24.092498 #42674]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-07-10T12:35:24.605438 #42674]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-64>
+I, [2014-07-10T12:35:24.605914 #42674]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T12:35:27.509645 #42674]  INFO -- Kitchen: -----> Testing <default-centos-64>
+I, [2014-07-10T12:35:27.509838 #42674]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+I, [2014-07-10T12:36:08.663212 #42674]  INFO -- Kitchen: -----> Converging <default-centos-64>...
+I, [2014-07-10T12:40:51.812885 #42674]  INFO -- Kitchen: -----> Setting up <default-centos-64>...
+I, [2014-07-10T12:42:21.967538 #42674]  INFO -- Kitchen: -----> Verifying <default-centos-64>...
+I, [2014-07-10T12:42:23.346741 #42674]  INFO -- Kitchen: -----> Destroying <default-centos-64>...
+I, [2014-07-10T12:42:26.464663 #42674]  INFO -- Kitchen: -----> Kitchen is finished. (7m2.37s)

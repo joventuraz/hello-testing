@@ -1,0 +1,68 @@
+I, [2014-07-09T18:50:25.517608 #36424]  INFO -- default-centos65: -----> Creating <default-centos65>...
+I, [2014-07-09T18:50:26.281185 #36424]  INFO -- default-centos65: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-09T18:50:26.551164 #36424]  INFO -- default-centos65: ==> default: Box 'opscode-centos65' could not be found. Attempting to find and install...
+I, [2014-07-09T18:50:26.551322 #36424]  INFO -- default-centos65:     default: Box Provider: virtualbox
+I, [2014-07-09T18:50:26.551919 #36424]  INFO -- default-centos65:     default: Box Version: >= 0
+I, [2014-07-09T18:50:27.854319 #36424]  INFO -- default-centos65: ==> default: Adding box 'opscode-centos65' (v0) for provider: virtualbox
+I, [2014-07-09T18:50:27.858578 #36424]  INFO -- default-centos65:     default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos65_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[KE, [2014-07-09T18:50:28.827350 #36424] ERROR -- default-centos65: Create failed on instance <default-centos65>.
+E, [2014-07-09T18:50:28.827541 #36424] ERROR -- default-centos65: ------Exception-------
+E, [2014-07-09T18:50:28.827577 #36424] ERROR -- default-centos65: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2014-07-09T18:50:28.827654 #36424] ERROR -- default-centos65: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'opscode-centos65' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Adding box 'opscode-centos65' (v0) for provider: virtualbox
+    default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos65_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K
+STDERR: An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+The requested URL returned error: 404 Not Found
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1
+E, [2014-07-09T18:50:28.827689 #36424] ERROR -- default-centos65: ---Nested Exception---
+E, [2014-07-09T18:50:28.827711 #36424] ERROR -- default-centos65: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2014-07-09T18:50:28.827730 #36424] ERROR -- default-centos65: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'opscode-centos65' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Adding box 'opscode-centos65' (v0) for provider: virtualbox
+    default: Downloading: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos65_chef-provisionerless.box
+[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K
+STDERR: An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+The requested URL returned error: 404 Not Found
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1
+E, [2014-07-09T18:50:28.827755 #36424] ERROR -- default-centos65: ------Backtrace-------
+E, [2014-07-09T18:50:28.827775 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2014-07-09T18:50:28.827799 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2014-07-09T18:50:28.827819 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2014-07-09T18:50:28.827866 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:123:in `run'
+E, [2014-07-09T18:50:28.827892 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:68:in `create'
+E, [2014-07-09T18:50:28.827912 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-09T18:50:28.827931 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-09T18:50:28.827951 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `call'
+E, [2014-07-09T18:50:28.827970 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `block in synchronize_or_call'
+E, [2014-07-09T18:50:28.828124 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize'
+E, [2014-07-09T18:50:28.828154 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize_or_call'
+E, [2014-07-09T18:50:28.828175 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-09T18:50:28.828195 #36424] ERROR -- default-centos65: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-09T18:50:28.828214 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-09T18:50:28.828233 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-09T18:50:28.828253 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-07-09T18:50:28.828272 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-09T18:50:28.828292 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-09T18:50:28.828311 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-09T18:50:28.828335 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:108:in `create'
+E, [2014-07-09T18:50:28.828355 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-09T18:50:28.828374 #36424] ERROR -- default-centos65: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-09T18:50:28.828394 #36424] ERROR -- default-centos65: ----------------------
