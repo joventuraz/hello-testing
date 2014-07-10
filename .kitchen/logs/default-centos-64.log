@@ -3856,3 +3856,1495 @@ I, [2014-07-10T16:13:35.007118 #52707]  INFO -- default-centos-64:
 I, [2014-07-10T16:13:35.007137 #52707]  INFO -- default-centos-64: Finished in 0.01611 seconds
 I, [2014-07-10T16:13:35.007149 #52707]  INFO -- default-centos-64: [32m1 example, 0 failures[0m
 I, [2014-07-10T16:13:35.030975 #52707]  INFO -- default-centos-64: Finished verifying <default-centos-64> (0m1.11s).
+I, [2014-07-10T16:17:24.881834 #52822]  INFO -- default-centos-64: -----> Verifying <default-centos-64>...
+I, [2014-07-10T16:17:25.202306 #52822]  INFO -- default-centos-64: Removing /tmp/busser/suites/serverspec
+I, [2014-07-10T16:17:25.340315 #52822]  INFO -- default-centos-64: Uploading /tmp/busser/suites/serverspec/hello_spec.rb (mode=0644)
+I, [2014-07-10T16:17:25.739486 #52822]  INFO -- default-centos-64: -----> Running serverspec test suite
+I, [2014-07-10T16:17:25.816203 #52822]  INFO -- default-centos-64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -S /opt/chef/embedded/bin/rspec /tmp/busser/suites/serverspec/hello_spec.rb --color --format documentation
+I, [2014-07-10T16:17:25.940612 #52822]  INFO -- default-centos-64: 
+I, [2014-07-10T16:17:25.940668 #52822]  INFO -- default-centos-64: Command "curl -L localhost | grep 'hello there'"
+I, [2014-07-10T16:17:25.957400 #52822]  INFO -- default-centos-64:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+I, [2014-07-10T16:17:25.957461 #52822]  INFO -- default-centos-64:                           Dload  Upload   Total   Spent    Left  Speed
+I, [2014-07-10T16:17:25.957480 #52822]  INFO -- default-centos-64:   0    11    0    11    0     0   1035      0 --:--:-- --:--:-- --:--:--  1035  0    11    0    11    0     0   1024      0 --:--:-- --:--:-- --:--:--     0
+I, [2014-07-10T16:17:25.957495 #52822]  INFO -- default-centos-64: [32m  should return exit status 0[0m
+I, [2014-07-10T16:17:25.957507 #52822]  INFO -- default-centos-64: 
+I, [2014-07-10T16:17:25.957528 #52822]  INFO -- default-centos-64: Finished in 0.01646 seconds
+I, [2014-07-10T16:17:25.957539 #52822]  INFO -- default-centos-64: [32m1 example, 0 failures[0m
+I, [2014-07-10T16:17:25.980889 #52822]  INFO -- default-centos-64: Finished verifying <default-centos-64> (0m1.10s).
+I, [2014-07-10T16:19:44.974968 #52877]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:19:46.474941 #52877]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:19:46.850406 #52877]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:19:48.548327 #52877]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:19:48.550138 #52877]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.57s).
+I, [2014-07-10T16:21:16.896235 #52948]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:21:18.421572 #52948]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:21:18.786727 #52948]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:21:20.459712 #52948]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:21:20.461744 #52948]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.56s).
+I, [2014-07-10T16:22:38.791102 #53009]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:22:40.314647 #53009]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:22:40.666957 #53009]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:22:42.355590 #53009]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:22:42.357710 #53009]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.56s).
+I, [2014-07-10T16:23:56.381472 #53077]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:23:57.913138 #53077]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:23:58.270230 #53077]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:23:59.976442 #53077]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:23:59.978400 #53077]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.59s).
+I, [2014-07-10T16:28:05.377144 #53333]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:28:06.884069 #53333]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:28:07.243731 #53333]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:28:08.931031 #53333]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:28:08.933323 #53333]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.55s).
+I, [2014-07-10T16:32:41.435560 #53414]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:32:41.436824 #53414]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:32:41.437123 #53414]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:32:41.529934 #53414]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:32:41.756255 #53414]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:32:43.062866 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:42+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:32:43.062917 #53414]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:32:43.062934 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.080608 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:42+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:32:43.086081 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:42+00:00] WARN: 
+I, [2014-07-10T16:32:43.086115 #53414]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:32:43.086136 #53414]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:32:43.086150 #53414]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:32:43.086164 #53414]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:32:43.086176 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086188 #53414]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:32:43.086200 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086212 #53414]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:32:43.086224 #53414]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:32:43.086236 #53414]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:32:43.086247 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086261 #53414]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:32:43.086273 #53414]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:32:43.086304 #53414]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:32:43.086316 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086328 #53414]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:32:43.086339 #53414]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:32:43.086351 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086362 #53414]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:32:43.086374 #53414]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:32:43.086385 #53414]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:32:43.086396 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.086410 #53414]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:32:43.086422 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:43.129376 #53414]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:32:43.129435 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:42+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:32:43.129482 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:42+00:00] INFO: Chef-client pid: 4890
+I, [2014-07-10T16:32:50.882023 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:32:50.885315 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:32:50.885364 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:32:50.885382 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:32:50.886189 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Running start handlers
+I, [2014-07-10T16:32:50.886218 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:32:50.891852 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:32:50.891904 #53414]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:32:51.044496 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:32:51.046945 #53414]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:32:51.055394 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Storing updated cookbooks/hello/recipes/default.rb in the cache.
+I, [2014-07-10T16:32:51.056527 #53414]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:32:51.064075 #53414]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:32:51.065807 #53414]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:32:51.068639 #53414]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:32:51.068670 #53414]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:32:51.137180 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] WARN: Cloning resource attributes for mysql_service[default] from prior resource (CHEF-3694)
+I, [2014-07-10T16:32:51.137244 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] WARN: Previous mysql_service[default]: /tmp/kitchen/cache/cookbooks/mysql/recipes/server.rb:20:in `from_file'
+I, [2014-07-10T16:32:51.137264 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] WARN: Current  mysql_service[default]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:16:in `from_file'
+I, [2014-07-10T16:32:51.137281 #53414]  INFO -- default-centos-64: Converging 5 resources[0m
+I, [2014-07-10T16:32:51.137992 #53414]  INFO -- default-centos-64: Recipe: mysql::server[0m
+I, [2014-07-10T16:32:51.138021 #53414]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:32:50+00:00] INFO: Processing mysql_service[default] action create (mysql::server line 20)
+I, [2014-07-10T16:32:51.140531 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:51.140559 #53414]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:32:51.140575 #53414]  INFO -- default-centos-64:   * package[mysql-server] action install[0m
+I, [2014-07-10T16:32:51.141821 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:50+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:32:52.092451 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.092503 #53414]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:32:51+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:32:52.094961 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.095010 #53414]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:32:51+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:32:52.095048 #53414]  INFO -- default-centos-64:  (up to date)[0m
+  * directory[/var/lib/mysql] action create[0mI, [2014-07-10T16:32:52.096307 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:51+00:00] INFO: Processing directory[/var/lib/mysql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:32:52.096341 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.096357 #53414]  INFO -- default-centos-64:   * service[mysqld] action start[0m
+I, [2014-07-10T16:32:52.097326 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:51+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:32:52.311956 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.312049 #53414]  INFO -- default-centos-64:   * service[mysqld] action enable[0m
+I, [2014-07-10T16:32:52.312765 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:51+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:32:52.511710 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.511793 #53414]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:32:51+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:32:52.605777 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:32:52.605847 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:52.605876 #53414]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:32:52.605898 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:52.605946 #53414]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:32:52+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:32:52.609771 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:52.609821 #53414]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m
+I, [2014-07-10T16:32:52.610077 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:32:52.610137 #53414]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:32:52.611077 #53414]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:32:52+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:32:52.616335 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710203252.097159
+I, [2014-07-10T16:32:52.623678 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:32:52.624965 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:52.624995 #53414]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from b6a117 to 8b3b74[0m[37m
+I, [2014-07-10T16:32:52.625037 #53414]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:11:20.262215643 +0000[0m[37m
+I, [2014-07-10T16:32:52.625075 #53414]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-4890-12ihgpg	2014-07-10 20:32:52.095809238 +0000[0m[37m
+I, [2014-07-10T16:32:52.625093 #53414]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:32:52.625108 #53414]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:32:52.625126 #53414]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:32:52.625160 #53414]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:32:52.625176 #53414]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:32:52.625191 #53414]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:32:52.625207 #53414]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:32:52.625221 #53414]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:32:52.625236 #53414]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:32:52.625250 #53414]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:32:52.625265 #53414]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:32:52.625283 #53414]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:32:52.625299 #53414]  INFO -- default-centos-64:  -datadir                        = /data[0m[37m
+I, [2014-07-10T16:32:52.625313 #53414]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:32:52.625328 #53414]  INFO -- default-centos-64:  +datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:32:52.625344 #53414]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:32:52.625358 #53414]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:32:52.625372 #53414]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:32:52.890099 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:52.890179 #53414]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:32:52.890213 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:52.890243 #53414]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:32:52+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:32:52.890273 #53414]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:32:52.890302 #53414]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:32:52+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:32:53.091268 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: execute[assign-root-password] ran successfully
+I, [2014-07-10T16:32:53.091334 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:53.091359 #53414]  INFO -- default-centos-64:     - execute /usr/bin/mysqladmin -u root password ilikerandompasswords[0m
+I, [2014-07-10T16:32:53.091378 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:53.092077 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:32:53.092118 #53414]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:32:52+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:32:53.094177 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:53.094241 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:53.094269 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:52+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:32:53.094290 #53414]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:32:52+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:32:58.668163 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:58+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:32:58.668217 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:58.668234 #53414]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:32:58.668261 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:58.668275 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:58.668287 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:58.668919 #53414]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T16:32:58.668949 #53414]  INFO -- default-centos-64:   * package[httpd] action install[0m[2014-07-10T20:32:58+00:00] INFO: Processing package[httpd] action install (hello::default line 3)
+I, [2014-07-10T16:32:58.669995 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:58.670029 #53414]  INFO -- default-centos-64:   * service[httpd] action enable[0m[2014-07-10T20:32:58+00:00] INFO: Processing service[httpd] action enable (hello::default line 7)
+I, [2014-07-10T16:32:58.851878 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:58.853260 #53414]  INFO -- default-centos-64:   * service[httpd] action start[0m[2014-07-10T20:32:58+00:00] INFO: Processing service[httpd] action start (hello::default line 7)
+I, [2014-07-10T16:32:59.044538 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.044624 #53414]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T20:32:58+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 11)
+I, [2014-07-10T16:32:59.047486 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.047525 #53414]  INFO -- default-centos-64:   * mysql_service[default] action create[0m
+I, [2014-07-10T16:32:59.048176 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:58+00:00] INFO: Processing mysql_service[default] action create (hello::default line 16)
+I, [2014-07-10T16:32:59.051362 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:59.051393 #53414]  INFO -- default-centos-64:     - rhel pattern[0m
+I, [2014-07-10T16:32:59.052551 #53414]  INFO -- default-centos-64: Recipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:32:59.052580 #53414]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:32:58+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:32:59.052597 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.052610 #53414]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:32:58+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:32:59.053578 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.053607 #53414]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:32:58+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:32:59.054975 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.056021 #53414]  INFO -- default-centos-64:   * directory[/data] action create[0m[2014-07-10T20:32:58+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:32:59.057028 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.057058 #53414]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:32:58+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:32:59.259929 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.260011 #53414]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:32:58+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:32:59.452852 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.453678 #53414]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:32:58+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:32:59.584128 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:32:59.584197 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:59.584227 #53414]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:32:59.584248 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:59.584268 #53414]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m
+I, [2014-07-10T16:32:59.584852 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:32:59.589500 #53414]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:32:59.589543 #53414]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:32:59+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:32:59.589563 #53414]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:32:59.589580 #53414]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:32:59+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:32:59.594366 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710203259.078031
+I, [2014-07-10T16:32:59.595667 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:32:59.595698 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:59.595733 #53414]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 8b3b74 to b6a117[0m[37m
+I, [2014-07-10T16:32:59.595753 #53414]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:32:52.095809238 +0000[0m[37m
+I, [2014-07-10T16:32:59.595769 #53414]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-4890-1dm8ngr	2014-07-10 20:32:59.076297734 +0000[0m[37m
+I, [2014-07-10T16:32:59.595787 #53414]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:32:59.595802 #53414]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:32:59.595818 #53414]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:32:59.595833 #53414]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:32:59.595868 #53414]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:32:59.595886 #53414]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:32:59.595900 #53414]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:32:59.595914 #53414]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:32:59.595931 #53414]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:32:59.595947 #53414]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:32:59.595962 #53414]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:32:59.595977 #53414]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:32:59.595992 #53414]  INFO -- default-centos-64:  -datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:32:59.596029 #53414]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:32:59.596045 #53414]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T16:32:59.596059 #53414]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:32:59.596072 #53414]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:32:59.596088 #53414]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:32:59.714680 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:32:59.714743 #53414]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:32:59.714764 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:59.714782 #53414]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m
+I, [2014-07-10T16:32:59.715950 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:32:59.715991 #53414]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:32:59.716013 #53414]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:32:59+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:32:59.759157 #53414]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:32:59.759218 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:32:59.759236 #53414]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:32:59+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:32:59.760311 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:32:59.760344 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:32:59.761271 #53414]  INFO -- default-centos-64: [2014-07-10T20:32:59+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:32:59.761305 #53414]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:32:59+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:33:05.133236 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:04+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:33:05.133316 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:33:05.133348 #53414]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:33:05.134093 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:05.134174 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:33:05.134211 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:04+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:33:05.134270 #53414]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:33:04+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:33:05.139203 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:05.139251 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:33:05.139272 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:04+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:33:05.139290 #53414]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:33:04+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:33:11.453577 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:10+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:33:11.453650 #53414]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:33:11.453694 #53414]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:33:11.453711 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:33:11.454685 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:11.454722 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:33:11.484091 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:10+00:00] INFO: Chef Run complete in 20.608192877 seconds
+I, [2014-07-10T16:33:11.486673 #53414]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:11.486709 #53414]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:33:11.486726 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:10+00:00] INFO: Running report handlers
+I, [2014-07-10T16:33:11.486740 #53414]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:33:11.486752 #53414]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:33:11.486764 #53414]  INFO -- default-centos-64: [2014-07-10T20:33:10+00:00] INFO: Report handlers complete
+I, [2014-07-10T16:33:11.486776 #53414]  INFO -- default-centos-64: Chef Client finished, 13/31 resources updated in 28.421113348 seconds[0m
+I, [2014-07-10T16:33:13.517070 #53414]  INFO -- default-centos-64: Finished converging <default-centos-64> (0m32.08s).
+I, [2014-07-10T16:33:56.814680 #53451]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:33:56.815937 #53451]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:33:56.816248 #53451]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:33:56.908234 #53451]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:33:57.146668 #53451]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:33:58.190228 #53451]  INFO -- default-centos-64: [2014-07-10T20:33:57+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:33:58.190323 #53451]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:33:58.190342 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.205742 #53451]  INFO -- default-centos-64: [2014-07-10T20:33:57+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:33:58.210763 #53451]  INFO -- default-centos-64: [2014-07-10T20:33:57+00:00] WARN: 
+I, [2014-07-10T16:33:58.210804 #53451]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:33:58.210821 #53451]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:33:58.210852 #53451]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:33:58.210868 #53451]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:33:58.210881 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.210898 #53451]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:33:58.210911 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.210924 #53451]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:33:58.210936 #53451]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:33:58.210948 #53451]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:33:58.210961 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.210973 #53451]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:33:58.210985 #53451]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:33:58.210997 #53451]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:33:58.211009 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.211021 #53451]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:33:58.211036 #53451]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:33:58.211048 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.211079 #53451]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:33:58.211091 #53451]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:33:58.211104 #53451]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:33:58.211115 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.211128 #53451]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:33:58.211140 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:33:58.234793 #53451]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:33:58.234845 #53451]  INFO -- default-centos-64: [2014-07-10T20:33:57+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:33:58.234862 #53451]  INFO -- default-centos-64: [2014-07-10T20:33:57+00:00] INFO: Chef-client pid: 5945
+I, [2014-07-10T16:34:05.935508 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:34:05.939182 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:34:05.939227 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:34:05.939252 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:34:05.940168 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Running start handlers
+I, [2014-07-10T16:34:05.940205 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:34:05.945657 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:34:05.945700 #53451]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:34:06.104231 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:34:06.108542 #53451]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:34:06.118509 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] INFO: Storing updated cookbooks/hello/recipes/default.rb in the cache.
+I, [2014-07-10T16:34:06.118551 #53451]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:34:06.120197 #53451]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:34:06.121095 #53451]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:34:06.122254 #53451]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:34:06.122305 #53451]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:34:06.186779 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] WARN: Cloning resource attributes for mysql_service[default] from prior resource (CHEF-3694)
+I, [2014-07-10T16:34:06.186862 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] WARN: Previous mysql_service[default]: /tmp/kitchen/cache/cookbooks/mysql/recipes/server.rb:20:in `from_file'
+I, [2014-07-10T16:34:06.186882 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:05+00:00] WARN: Current  mysql_service[default]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:16:in `from_file'
+I, [2014-07-10T16:34:06.186897 #53451]  INFO -- default-centos-64: Converging 5 resources[0m
+I, [2014-07-10T16:34:06.186910 #53451]  INFO -- default-centos-64: Recipe: mysql::server[0m
+I, [2014-07-10T16:34:06.186922 #53451]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:34:05+00:00] INFO: Processing mysql_service[default] action create (mysql::server line 20)
+I, [2014-07-10T16:34:06.190197 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:06.190251 #53451]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:34:06.190269 #53451]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:34:05+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:34:07.231390 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.231446 #53451]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:34:06+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:34:07.233341 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.233381 #53451]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:34:06+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:34:07.234120 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.235188 #53451]  INFO -- default-centos-64:   * directory[/var/lib/mysql] action create[0m[2014-07-10T20:34:06+00:00] INFO: Processing directory[/var/lib/mysql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:34:07.236208 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.236245 #53451]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:34:06+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:07.450301 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.450374 #53451]  INFO -- default-centos-64:   * service[mysqld] action enable[0m
+I, [2014-07-10T16:34:07.451372 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:06+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:07.653767 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.653820 #53451]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:34:07+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:34:07.747739 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:34:07.747796 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:07.747818 #53451]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:34:07.747849 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:07.747877 #53451]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:34:07+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:34:07.751695 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:07.751755 #53451]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:34:07+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:34:07.751773 #53451]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:34:07.751788 #53451]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:34:07+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:34:07.762014 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710203407.277529
+I, [2014-07-10T16:34:07.767031 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:34:07.767086 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:07.767103 #53451]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from b6a117 to 8b3b74[0m[37m
+I, [2014-07-10T16:34:07.767142 #53451]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:32:59.076297734 +0000[0m[37m
+I, [2014-07-10T16:34:07.767164 #53451]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-5945-uob8qc	2014-07-10 20:34:07.275380213 +0000[0m[37m
+I, [2014-07-10T16:34:07.767185 #53451]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:34:07.767212 #53451]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:34:07.767234 #53451]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:34:07.767251 #53451]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:34:07.767271 #53451]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:34:07.767291 #53451]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:34:07.767328 #53451]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:34:07.767347 #53451]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:34:07.767368 #53451]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:34:07.767386 #53451]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:34:07.767406 #53451]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:34:07.767423 #53451]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:34:07.767439 #53451]  INFO -- default-centos-64:  -datadir                        = /data[0m[37m
+I, [2014-07-10T16:34:07.767456 #53451]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:34:07.767475 #53451]  INFO -- default-centos-64:  +datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:34:07.767506 #53451]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:34:07.767525 #53451]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:34:07.767545 #53451]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:34:08.019706 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:08.019789 #53451]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:34:08.020563 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:08.020603 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:08.020627 #53451]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m
+I, [2014-07-10T16:34:08.021592 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:34:08.021633 #53451]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:34:08.021657 #53451]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:34:07+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:34:08.120430 #53451]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:34:08.120516 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:34:08.120554 #53451]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m
+I, [2014-07-10T16:34:08.121676 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:34:08.123625 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:08.123668 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:08.123692 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:07+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:34:08.123713 #53451]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:34:07+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:12.722400 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:12+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:34:12.723163 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:12.723200 #53451]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:34:12.723221 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:12.723240 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:12.723257 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:12.723273 #53451]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T16:34:12.729632 #53451]  INFO -- default-centos-64:   * package[httpd] action install[0m[2014-07-10T20:34:12+00:00] INFO: Processing package[httpd] action install (hello::default line 3)
+I, [2014-07-10T16:34:12.729677 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:12.729699 #53451]  INFO -- default-centos-64:   * service[httpd] action enable[0m
+I, [2014-07-10T16:34:12.731872 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:12+00:00] INFO: Processing service[httpd] action enable (hello::default line 7)
+I, [2014-07-10T16:34:12.915498 #53451]  INFO -- default-centos-64:  (up to date)[0m
+  * service[httpd] action start[0mI, [2014-07-10T16:34:12.917200 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:12+00:00] INFO: Processing service[httpd] action start (hello::default line 7)
+I, [2014-07-10T16:34:13.108757 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.108841 #53451]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T20:34:12+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 11)
+I, [2014-07-10T16:34:13.108866 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.108920 #53451]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:34:12+00:00] INFO: Processing mysql_service[default] action create (hello::default line 16)
+I, [2014-07-10T16:34:13.111681 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:13.111712 #53451]  INFO -- default-centos-64:     - rhel pattern[0m
+I, [2014-07-10T16:34:13.112997 #53451]  INFO -- default-centos-64: Recipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:34:13.113041 #53451]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:34:12+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:34:13.113058 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.113072 #53451]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m
+I, [2014-07-10T16:34:13.114077 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:12+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:34:13.115161 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.115191 #53451]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:34:12+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:34:13.116727 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.116757 #53451]  INFO -- default-centos-64:   * directory[/data] action create[0m[2014-07-10T20:34:12+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:34:13.119115 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.119148 #53451]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:34:12+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:13.344530 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.344643 #53451]  INFO -- default-centos-64:   * service[mysqld] action enable[0m
+I, [2014-07-10T16:34:13.345082 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:12+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:13.586056 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.586126 #53451]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:34:13+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:34:13.680003 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:34:13.680086 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:13.680119 #53451]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:34:13.680145 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:13.680794 #53451]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:34:13+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:34:13.736943 #53451]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:34:13.736995 #53451]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:34:13+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:34:13.737013 #53451]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:34:13.737027 #53451]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:34:13+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:34:13.739765 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710203413.265464
+I, [2014-07-10T16:34:13.739821 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710201102.222651
+I, [2014-07-10T16:34:13.745529 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:34:13.745570 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:13.745588 #53451]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 8b3b74 to b6a117[0m[37m
+I, [2014-07-10T16:34:13.745610 #53451]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:34:07.275380213 +0000[0m[37m
+I, [2014-07-10T16:34:13.745629 #53451]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-5945-zghsr	2014-07-10 20:34:13.263372710 +0000[0m[37m
+I, [2014-07-10T16:34:13.745645 #53451]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:34:13.745661 #53451]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:34:13.745678 #53451]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:34:13.745695 #53451]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:34:13.745712 #53451]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:34:13.745751 #53451]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:34:13.745766 #53451]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:34:13.745781 #53451]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:34:13.745798 #53451]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:34:13.745813 #53451]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:34:13.745829 #53451]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:34:13.745846 #53451]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:34:13.745862 #53451]  INFO -- default-centos-64:  -datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:34:13.745878 #53451]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:34:13.745894 #53451]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T16:34:13.745908 #53451]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:34:13.745932 #53451]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:34:13.745947 #53451]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:34:13.874239 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:13.874314 #53451]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:34:13.874460 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:13.874511 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:13.874537 #53451]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:34:13+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:34:13.874557 #53451]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:34:13.874576 #53451]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:34:13+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:34:13.917866 #53451]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:34:13.917926 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:34:13.917947 #53451]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:34:13+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:34:13.920300 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:13.920350 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:13.920373 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:13+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:34:13.920411 #53451]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:34:13+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:18.300142 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:17+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:34:18.300208 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:18.300230 #53451]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:34:18.300870 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:18.300923 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:18.300945 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:17+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:34:18.300970 #53451]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:34:17+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:34:18.303762 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:18.303809 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:18.303833 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:17+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:34:18.303855 #53451]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:34:17+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:34:24.625307 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:24+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:34:24.625373 #53451]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:34:24.625398 #53451]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:34:24.625423 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:24.625443 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:24.625461 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:24.653017 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:24+00:00] INFO: Chef Run complete in 18.724001958 seconds
+I, [2014-07-10T16:34:24.655236 #53451]  INFO -- default-centos-64: 
+I, [2014-07-10T16:34:24.655270 #53451]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:34:24.655287 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:24+00:00] INFO: Running report handlers
+I, [2014-07-10T16:34:24.655301 #53451]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:34:24.655314 #53451]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:34:24.655325 #53451]  INFO -- default-centos-64: [2014-07-10T20:34:24+00:00] INFO: Report handlers complete
+I, [2014-07-10T16:34:24.655338 #53451]  INFO -- default-centos-64: Chef Client finished, 12/30 resources updated in 26.463257939 seconds[0m
+I, [2014-07-10T16:34:26.686141 #53451]  INFO -- default-centos-64: Finished converging <default-centos-64> (0m29.87s).
+I, [2014-07-10T16:46:07.129199 #53502]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:46:07.130509 #53502]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:46:07.130840 #53502]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:46:07.231576 #53502]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:46:07.476065 #53502]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:46:08.566919 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:08+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:46:08.566980 #53502]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:46:08.567002 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.591064 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:08+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:46:08.604438 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:08+00:00] WARN: 
+I, [2014-07-10T16:46:08.604519 #53502]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:46:08.604557 #53502]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:46:08.604588 #53502]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:46:08.604617 #53502]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:46:08.604644 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.604671 #53502]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:46:08.604698 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.604724 #53502]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:08.604750 #53502]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:46:08.604810 #53502]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:46:08.604837 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.604862 #53502]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:46:08.604887 #53502]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:46:08.604911 #53502]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:08.604936 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.604961 #53502]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:46:08.604986 #53502]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:46:08.605010 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.605034 #53502]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:08.605057 #53502]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:46:08.605081 #53502]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:08.605133 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.605164 #53502]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:46:08.605189 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:08.631857 #53502]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:46:08.631913 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:08+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:46:08.631935 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:08+00:00] INFO: Chef-client pid: 6995
+I, [2014-07-10T16:46:16.372084 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:46:16.376276 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:46:16.376327 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:46:16.376348 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:46:16.376362 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Running start handlers
+I, [2014-07-10T16:46:16.376375 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:46:16.381304 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:46:16.381335 #53502]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:46:16.537376 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:46:16.541178 #53502]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:46:16.541219 #53502]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:46:16.542897 #53502]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:46:16.543981 #53502]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:46:16.544017 #53502]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:46:16.544971 #53502]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:46:16.602320 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] WARN: Cloning resource attributes for mysql_service[default] from prior resource (CHEF-3694)
+I, [2014-07-10T16:46:16.602376 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] WARN: Previous mysql_service[default]: /tmp/kitchen/cache/cookbooks/mysql/recipes/server.rb:20:in `from_file'
+I, [2014-07-10T16:46:16.602406 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:16+00:00] WARN: Current  mysql_service[default]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:16:in `from_file'
+I, [2014-07-10T16:46:16.602560 #53502]  INFO -- default-centos-64: Converging 5 resources[0m
+I, [2014-07-10T16:46:16.603628 #53502]  INFO -- default-centos-64: Recipe: mysql::server[0m
+I, [2014-07-10T16:46:16.603658 #53502]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:46:16+00:00] INFO: Processing mysql_service[default] action create (mysql::server line 20)
+I, [2014-07-10T16:46:16.606166 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:16.606195 #53502]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:46:16.606211 #53502]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:46:16+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:46:17.575476 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.575858 #53502]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:46:17+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:46:17.578490 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.578522 #53502]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:46:17+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:46:17.578539 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.579517 #53502]  INFO -- default-centos-64:   * directory[/var/lib/mysql] action create[0m[2014-07-10T20:46:17+00:00] INFO: Processing directory[/var/lib/mysql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:46:17.580581 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.580628 #53502]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:46:17+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:17.790964 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.791028 #53502]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:46:17+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:17.996384 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:17.997187 #53502]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:46:17+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:46:18.097570 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:46:18.097638 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:18.097663 #53502]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:46:18.097683 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:18.098976 #53502]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:46:18+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:46:18.105056 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:18.105107 #53502]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:46:18+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:46:18.105128 #53502]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:46:18.106007 #53502]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:46:18+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:46:18.110976 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204618.014079
+I, [2014-07-10T16:46:18.111022 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710201120.265555
+I, [2014-07-10T16:46:18.118835 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:46:18.119890 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:18.119922 #53502]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from b6a117 to 8b3b74[0m[37m
+I, [2014-07-10T16:46:18.119963 #53502]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:34:13.263372710 +0000[0m[37m
+I, [2014-07-10T16:46:18.119983 #53502]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-6995-jzzjwb	2014-07-10 20:46:18.012565983 +0000[0m[37m
+I, [2014-07-10T16:46:18.120000 #53502]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:46:18.120015 #53502]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:46:18.120032 #53502]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:46:18.120048 #53502]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:46:18.120064 #53502]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:18.120079 #53502]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:18.120094 #53502]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:46:18.120108 #53502]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:46:18.120124 #53502]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:46:18.120161 #53502]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:46:18.120178 #53502]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:18.120194 #53502]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:46:18.120210 #53502]  INFO -- default-centos-64:  -datadir                        = /data[0m[37m
+I, [2014-07-10T16:46:18.120226 #53502]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:46:18.120241 #53502]  INFO -- default-centos-64:  +datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:46:18.120256 #53502]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:18.120270 #53502]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:46:18.120285 #53502]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:46:18.378018 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:18.378097 #53502]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:46:18.378850 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:18.378887 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:18.378908 #53502]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:46:18+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:18.378927 #53502]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:46:18.379904 #53502]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:46:18+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:46:18.481231 #53502]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:46:18.482065 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:46:18.482131 #53502]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:46:18+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:18.484252 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:18.484303 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:18.485221 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:18+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:46:18.485265 #53502]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:46:18+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:21.087553 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:20+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:46:21.087610 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:21.087629 #53502]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:46:21.087644 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:21.087658 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:21.087672 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:21.087685 #53502]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T16:46:21.087699 #53502]  INFO -- default-centos-64:   * package[httpd] action install[0m[2014-07-10T20:46:20+00:00] INFO: Processing package[httpd] action install (hello::default line 3)
+I, [2014-07-10T16:46:21.088570 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.088609 #53502]  INFO -- default-centos-64:   * service[httpd] action enable[0m[2014-07-10T20:46:20+00:00] INFO: Processing service[httpd] action enable (hello::default line 7)
+I, [2014-07-10T16:46:21.285779 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.286515 #53502]  INFO -- default-centos-64:   * service[httpd] action start[0m[2014-07-10T20:46:21+00:00] INFO: Processing service[httpd] action start (hello::default line 7)
+I, [2014-07-10T16:46:21.476467 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.476529 #53502]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T20:46:21+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 11)
+I, [2014-07-10T16:46:21.479934 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.479974 #53502]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:46:21+00:00] INFO: Processing mysql_service[default] action create (hello::default line 16)
+I, [2014-07-10T16:46:21.484421 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:21.484465 #53502]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:46:21.484483 #53502]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:46:21+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:46:21.484498 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.484527 #53502]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m
+I, [2014-07-10T16:46:21.484653 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:46:21.487303 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.487352 #53502]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:46:21+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:46:21.487371 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.487385 #53502]  INFO -- default-centos-64:   * directory[/data] action create[0m
+I, [2014-07-10T16:46:21.488489 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:46:21.488520 #53502]  INFO -- default-centos-64:  (up to date)[0m
+  * service[mysqld] action start[0mI, [2014-07-10T16:46:21.489849 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:21.689367 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.689437 #53502]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:46:21+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:21.900245 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:21.900327 #53502]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m
+I, [2014-07-10T16:46:21.901023 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:46:22.014311 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:46:22.014393 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:22.014426 #53502]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:46:22.014452 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:22.014509 #53502]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:46:21+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:46:22.017272 #53502]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:22.017321 #53502]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:46:21+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:46:22.064345 #53502]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+  * template[/etc/my.cnf] action create[0mI, [2014-07-10T16:46:22.066378 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:46:22.075428 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204621.978752
+I, [2014-07-10T16:46:22.075479 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710203252.097159
+I, [2014-07-10T16:46:22.076200 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:21+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:46:22.076233 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:22.076250 #53502]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 8b3b74 to b6a117[0m[37m
+I, [2014-07-10T16:46:22.076270 #53502]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:46:18.012565983 +0000[0m[37m
+I, [2014-07-10T16:46:22.076287 #53502]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-6995-14ssd3m	2014-07-10 20:46:21.976546982 +0000[0m[37m
+I, [2014-07-10T16:46:22.076302 #53502]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:46:22.076338 #53502]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:46:22.076357 #53502]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:46:22.076373 #53502]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:46:22.076389 #53502]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:22.076406 #53502]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:22.076421 #53502]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:46:22.076436 #53502]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:46:22.076451 #53502]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:46:22.076485 #53502]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:46:22.076504 #53502]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:22.076520 #53502]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:46:22.076536 #53502]  INFO -- default-centos-64:  -datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:46:22.076551 #53502]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:46:22.076568 #53502]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T16:46:22.076583 #53502]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:22.076597 #53502]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:46:22.076611 #53502]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:46:22.193253 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:22.193309 #53502]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:46:22.194263 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:22.194293 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:22.194310 #53502]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:46:22+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:22.194325 #53502]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+  * execute[assign-root-password] action run[0mI, [2014-07-10T16:46:22.195641 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:22+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:46:22.250879 #53502]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:46:22.251693 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:22+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:46:22.251778 #53502]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:46:22+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:22.255493 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:22.255539 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:22.255563 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:22+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:46:22.255584 #53502]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:46:22+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:27.612313 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:27+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:46:27.612401 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:27.612449 #53502]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:46:27.612470 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:27.612488 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:27+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:46:27.612507 #53502]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m
+I, [2014-07-10T16:46:27.618630 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:27+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:27.621681 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:27.621718 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:27.621735 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:27+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:46:27.621767 #53502]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:46:27+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:33.957045 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:33+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:46:33.957112 #53502]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:33.957136 #53502]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:46:33.957874 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:33.957916 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:33.957939 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:33.957979 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:33.987477 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:33+00:00] INFO: Chef Run complete in 17.620312768 seconds
+I, [2014-07-10T16:46:33.990665 #53502]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:33.990729 #53502]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:46:33.990758 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:33+00:00] INFO: Running report handlers
+I, [2014-07-10T16:46:33.990781 #53502]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:46:33.990803 #53502]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:33.990855 #53502]  INFO -- default-centos-64: [2014-07-10T20:46:33+00:00] INFO: Report handlers complete
+I, [2014-07-10T16:46:33.990877 #53502]  INFO -- default-centos-64: Chef Client finished, 12/30 resources updated in 25.412761726 seconds[0m
+I, [2014-07-10T16:46:36.022814 #53502]  INFO -- default-centos-64: Finished converging <default-centos-64> (0m28.89s).
+I, [2014-07-10T16:46:47.694435 #53526]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:46:47.695767 #53526]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:46:47.696086 #53526]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:46:47.787004 #53526]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:46:48.017125 #53526]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:46:49.113865 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:49+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:46:49.113932 #53526]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:46:49.113958 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.130013 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:49+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:46:49.135084 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:49+00:00] WARN: 
+I, [2014-07-10T16:46:49.135131 #53526]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:46:49.135171 #53526]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:46:49.135186 #53526]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:46:49.135200 #53526]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:46:49.135212 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135225 #53526]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:46:49.135238 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135250 #53526]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:49.135262 #53526]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:46:49.135274 #53526]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:46:49.135286 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135298 #53526]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:46:49.135310 #53526]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:46:49.135321 #53526]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:49.135333 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135345 #53526]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:46:49.135356 #53526]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:46:49.135368 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135379 #53526]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:49.135391 #53526]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:46:49.135419 #53526]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:46:49.135434 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.135446 #53526]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:46:49.135460 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:49.159049 #53526]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:46:49.160033 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:49+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:46:49.160077 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:49+00:00] INFO: Chef-client pid: 8039
+I, [2014-07-10T16:46:56.796769 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:46:56.801149 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:46:56.801188 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:46:56.801205 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:46:56.801218 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Running start handlers
+I, [2014-07-10T16:46:56.801231 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:46:56.805808 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:46:56.805845 #53526]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:46:56.955022 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:46:56.957387 #53526]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:46:56.958145 #53526]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:46:56.960353 #53526]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:46:56.961131 #53526]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:46:56.961851 #53526]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:46:56.961883 #53526]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:46:57.022905 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] WARN: Cloning resource attributes for mysql_service[default] from prior resource (CHEF-3694)
+I, [2014-07-10T16:46:57.022961 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] WARN: Previous mysql_service[default]: /tmp/kitchen/cache/cookbooks/mysql/recipes/server.rb:20:in `from_file'
+I, [2014-07-10T16:46:57.023005 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:56+00:00] WARN: Current  mysql_service[default]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:16:in `from_file'
+I, [2014-07-10T16:46:57.023021 #53526]  INFO -- default-centos-64: Converging 5 resources[0m
+I, [2014-07-10T16:46:57.023035 #53526]  INFO -- default-centos-64: Recipe: mysql::server[0m
+I, [2014-07-10T16:46:57.023049 #53526]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:46:56+00:00] INFO: Processing mysql_service[default] action create (mysql::server line 20)
+I, [2014-07-10T16:46:57.026179 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:57.026264 #53526]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:46:57.026300 #53526]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:46:56+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:46:57.997822 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:57.997881 #53526]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:46:57+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:46:58.000708 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.000747 #53526]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:46:57+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:46:58.001735 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.001766 #53526]  INFO -- default-centos-64:   * directory[/var/lib/mysql] action create[0m[2014-07-10T20:46:57+00:00] INFO: Processing directory[/var/lib/mysql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:46:58.002700 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.002732 #53526]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:46:57+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:58.228295 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.228387 #53526]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:46:58+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:46:58.433565 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.433632 #53526]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:46:58+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:46:58.533111 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:46:58.533178 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:58.533203 #53526]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:46:58.533224 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:58.534182 #53526]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:46:58+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:46:58.537903 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:46:58.537939 #53526]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m
+I, [2014-07-10T16:46:58.538874 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:46:58.538905 #53526]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:46:58.538922 #53526]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:46:58+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:46:58.541426 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204658.467625
+I, [2014-07-10T16:46:58.553776 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710203259.078031
+I, [2014-07-10T16:46:58.563041 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:46:58.563206 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:58.563232 #53526]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from b6a117 to 8b3b74[0m[37m
+I, [2014-07-10T16:46:58.563323 #53526]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:46:21.976546982 +0000[0m[37m
+I, [2014-07-10T16:46:58.563354 #53526]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-8039-t8ygmd	2014-07-10 20:46:58.465782470 +0000[0m[37m
+I, [2014-07-10T16:46:58.563392 #53526]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:46:58.563412 #53526]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:46:58.563463 #53526]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:46:58.563483 #53526]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:46:58.563501 #53526]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:58.563519 #53526]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:58.563536 #53526]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:46:58.563553 #53526]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:46:58.563571 #53526]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:46:58.563588 #53526]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:46:58.563605 #53526]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:46:58.563623 #53526]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:46:58.563681 #53526]  INFO -- default-centos-64:  -datadir                        = /data[0m[37m
+I, [2014-07-10T16:46:58.563703 #53526]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:46:58.563721 #53526]  INFO -- default-centos-64:  +datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:46:58.563769 #53526]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:46:58.563787 #53526]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:46:58.563803 #53526]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:46:58.823380 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:46:58.823447 #53526]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:46:58.823472 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:58.824296 #53526]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:46:58+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:58.824337 #53526]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:46:58.824361 #53526]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:46:58+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:46:58.928013 #53526]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:46:58.928852 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:46:58.928895 #53526]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:46:58+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:46:58.932453 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:46:58.932504 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:46:58.932524 #53526]  INFO -- default-centos-64: [2014-07-10T20:46:58+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:46:58.932541 #53526]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:46:58+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:47:05.506597 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:05+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:47:05.506662 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:05.506684 #53526]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:47:05.506725 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:05.507328 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:05.507364 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:05.507385 #53526]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T16:47:05.507402 #53526]  INFO -- default-centos-64:   * package[httpd] action install[0m[2014-07-10T20:47:05+00:00] INFO: Processing package[httpd] action install (hello::default line 3)
+I, [2014-07-10T16:47:05.512766 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.513807 #53526]  INFO -- default-centos-64:   * service[httpd] action enable[0m[2014-07-10T20:47:05+00:00] INFO: Processing service[httpd] action enable (hello::default line 7)
+I, [2014-07-10T16:47:05.701709 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.701769 #53526]  INFO -- default-centos-64:   * service[httpd] action start[0m[2014-07-10T20:47:05+00:00] INFO: Processing service[httpd] action start (hello::default line 7)
+I, [2014-07-10T16:47:05.885089 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.885171 #53526]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T20:47:05+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 11)
+I, [2014-07-10T16:47:05.887462 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.887507 #53526]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:47:05+00:00] INFO: Processing mysql_service[default] action create (hello::default line 16)
+I, [2014-07-10T16:47:05.892675 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:05.892713 #53526]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:47:05.892732 #53526]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:47:05+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:47:05.892748 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.893800 #53526]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:47:05+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:47:05.893833 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.893852 #53526]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m
+I, [2014-07-10T16:47:05.895392 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:05+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:47:05.895423 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.895441 #53526]  INFO -- default-centos-64:   * directory[/data] action create[0m[2014-07-10T20:47:05+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:47:05.897484 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:05.897518 #53526]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:47:05+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:47:06.095583 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:06.095643 #53526]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:47:06+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:47:06.302701 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:06.302786 #53526]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:47:06+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:47:06.397110 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:47:06.397192 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:06.397254 #53526]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:47:06.397281 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:06.398020 #53526]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:47:06+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:47:06.447426 #53526]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:47:06.448512 #53526]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:47:06+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:47:06.448541 #53526]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:47:06.448558 #53526]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:47:06+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:47:06.450669 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204706.381652
+I, [2014-07-10T16:47:06.450703 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710203407.277529
+I, [2014-07-10T16:47:06.454259 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:47:06.454302 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:06.454318 #53526]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 8b3b74 to b6a117[0m[37m
+I, [2014-07-10T16:47:06.454344 #53526]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:46:58.465782470 +0000[0m[37m
+I, [2014-07-10T16:47:06.454361 #53526]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-8039-1uqwpgl	2014-07-10 20:47:06.379737467 +0000[0m[37m
+I, [2014-07-10T16:47:06.454377 #53526]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:47:06.454392 #53526]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:47:06.454410 #53526]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:47:06.454426 #53526]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:47:06.454466 #53526]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:47:06.454482 #53526]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:47:06.454498 #53526]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:47:06.454513 #53526]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:47:06.454528 #53526]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:47:06.454543 #53526]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:47:06.454559 #53526]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:47:06.454576 #53526]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:47:06.454594 #53526]  INFO -- default-centos-64:  -datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:47:06.454610 #53526]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:47:06.454626 #53526]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T16:47:06.454641 #53526]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:47:06.454656 #53526]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:47:06.454670 #53526]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:47:06.568404 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:06.568472 #53526]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:47:06.568989 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:06.569030 #53526]  INFO -- default-centos-64: [0m
+  * bash[move mysql data to datadir] action nothing[0mI, [2014-07-10T16:47:06.570752 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:47:06.570792 #53526]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:47:06.570814 #53526]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:47:06+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:47:06.612971 #53526]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:47:06.613878 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:47:06.613923 #53526]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:47:06+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:47:06.615823 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:06.615862 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:06.615883 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:47:06.615906 #53526]  INFO -- default-centos-64:   * service[mysqld] action restart[0m
+I, [2014-07-10T16:47:06.617022 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:06+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:47:11.970041 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:11+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:47:11.970121 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:11.970152 #53526]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:47:11.970859 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:11.970919 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:11.970943 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:11+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:47:11.970964 #53526]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:47:11+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:47:11.973408 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:11.975304 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:11.975346 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:11.975368 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:11+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:47:11.975386 #53526]  INFO -- default-centos-64:   * service[mysqld] action restart[0m
+I, [2014-07-10T16:47:11.976557 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:11+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:47:18.334069 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:18+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:47:18.334120 #53526]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:47:18.334136 #53526]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:47:18.334166 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:18.334197 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:18.334212 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:18.360185 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:18+00:00] INFO: Chef Run complete in 21.56988446 seconds
+I, [2014-07-10T16:47:18.360337 #53526]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:18.360361 #53526]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:47:18.360376 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:18+00:00] INFO: Running report handlers
+I, [2014-07-10T16:47:18.360390 #53526]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:47:18.360419 #53526]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:18.361397 #53526]  INFO -- default-centos-64: [2014-07-10T20:47:18+00:00] INFO: Report handlers complete
+I, [2014-07-10T16:47:18.361427 #53526]  INFO -- default-centos-64: Chef Client finished, 12/30 resources updated in 29.246328632 seconds[0m
+I, [2014-07-10T16:47:20.392791 #53526]  INFO -- default-centos-64: Finished converging <default-centos-64> (0m32.70s).
+I, [2014-07-10T16:47:41.285602 #53558]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:47:41.286869 #53558]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:47:41.287187 #53558]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:47:41.380839 #53558]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:47:41.610524 #53558]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:47:42.658286 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:42+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:47:42.658344 #53558]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:47:42.658367 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.681647 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:42+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:47:42.686827 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:42+00:00] WARN: 
+I, [2014-07-10T16:47:42.686865 #53558]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:47:42.686884 #53558]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:47:42.686899 #53558]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:47:42.686912 #53558]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:47:42.686948 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.686964 #53558]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:47:42.686976 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.686988 #53558]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:42.687000 #53558]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:47:42.687012 #53558]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:47:42.687023 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.687035 #53558]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:47:42.687046 #53558]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:47:42.687058 #53558]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:42.687070 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.687081 #53558]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:47:42.687096 #53558]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:47:42.687108 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.687119 #53558]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:42.687484 #53558]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:47:42.687521 #53558]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:42.687534 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.687546 #53558]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:47:42.687557 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:42.714517 #53558]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:47:42.714575 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:42+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:47:42.714594 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:42+00:00] INFO: Chef-client pid: 9091
+I, [2014-07-10T16:47:50.401036 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:47:50.404060 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:47:50.404098 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:47:50.404116 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:47:50.404130 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Running start handlers
+I, [2014-07-10T16:47:50.404391 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:47:50.409965 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:47:50.410003 #53558]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:47:50.557771 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:47:50.560852 #53558]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:47:50.569958 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] INFO: Storing updated cookbooks/hello/recipes/default.rb in the cache.
+I, [2014-07-10T16:47:50.570007 #53558]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:47:50.571647 #53558]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:47:50.572614 #53558]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:47:50.573604 #53558]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:47:50.573639 #53558]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:47:50.632801 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] WARN: Cloning resource attributes for package[httpd] from prior resource (CHEF-3694)
+I, [2014-07-10T16:47:50.632859 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] WARN: Previous package[httpd]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:3:in `from_file'
+I, [2014-07-10T16:47:50.632878 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] WARN: Current  package[httpd]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:7:in `from_file'
+I, [2014-07-10T16:47:50.632892 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.632905 #53558]  INFO -- default-centos-64: ================================================================================[0m
+I, [2014-07-10T16:47:50.632919 #53558]  INFO -- default-centos-64: [31mRecipe Compile Error in /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb[0m
+I, [2014-07-10T16:47:50.632931 #53558]  INFO -- default-centos-64: ================================================================================[0m
+I, [2014-07-10T16:47:50.632944 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.632973 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.632988 #53558]  INFO -- default-centos-64: Chef::Exceptions::ValidationFailed[0m
+I, [2014-07-10T16:47:50.633000 #53558]  INFO -- default-centos-64: ----------------------------------[0m
+I, [2014-07-10T16:47:50.633013 #53558]  INFO -- default-centos-64: Option action must be equal to one of: nothing, install, upgrade, remove, purge, reconfig!  You passed :enable.[0m
+I, [2014-07-10T16:47:50.633024 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.633036 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.633048 #53558]  INFO -- default-centos-64: Cookbook Trace:[0m
+I, [2014-07-10T16:47:50.633060 #53558]  INFO -- default-centos-64: ---------------[0m
+I, [2014-07-10T16:47:50.633071 #53558]  INFO -- default-centos-64:   /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:8:in `block in from_file'
+I, [2014-07-10T16:47:50.633083 #53558]  INFO -- default-centos-64:   /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:7:in `from_file'[0m
+I, [2014-07-10T16:47:50.633095 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.633106 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.633141 #53558]  INFO -- default-centos-64: Relevant File Content:[0m
+I, [2014-07-10T16:47:50.633153 #53558]  INFO -- default-centos-64: ----------------------[0m
+I, [2014-07-10T16:47:50.633164 #53558]  INFO -- default-centos-64: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:
+I, [2014-07-10T16:47:50.633175 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.633187 #53558]  INFO -- default-centos-64:   1:  include_recipe 'mysql::server'
+I, [2014-07-10T16:47:50.633198 #53558]  INFO -- default-centos-64:   2:  
+I, [2014-07-10T16:47:50.633210 #53558]  INFO -- default-centos-64:   3:  package 'httpd' do
+I, [2014-07-10T16:47:50.633221 #53558]  INFO -- default-centos-64:   4:    action :install
+I, [2014-07-10T16:47:50.633232 #53558]  INFO -- default-centos-64:   5:  end
+I, [2014-07-10T16:47:50.633244 #53558]  INFO -- default-centos-64:   6:  
+I, [2014-07-10T16:47:50.633256 #53558]  INFO -- default-centos-64:   7:  package 'httpd' do
+I, [2014-07-10T16:47:50.633267 #53558]  INFO -- default-centos-64:   8>>   action [:enable, :start]
+I, [2014-07-10T16:47:50.633278 #53558]  INFO -- default-centos-64:   9:  end
+I, [2014-07-10T16:47:50.633290 #53558]  INFO -- default-centos-64:  10:  
+I, [2014-07-10T16:47:50.633301 #53558]  INFO -- default-centos-64:  11:  file '/var/www/html/index.html' do
+I, [2014-07-10T16:47:50.633313 #53558]  INFO -- default-centos-64:  12:    content 'hello there'
+I, [2014-07-10T16:47:50.633324 #53558]  INFO -- default-centos-64:  13:    action :create
+I, [2014-07-10T16:47:50.633336 #53558]  INFO -- default-centos-64:  14:  end
+I, [2014-07-10T16:47:50.633347 #53558]  INFO -- default-centos-64:  15:  
+I, [2014-07-10T16:47:50.633358 #53558]  INFO -- default-centos-64:  16:  mysql_service 'default' do
+I, [2014-07-10T16:47:50.633387 #53558]  INFO -- default-centos-64:  17:    port '1234'
+I, [2014-07-10T16:47:50.633399 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.633410 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.633421 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.633433 #53558]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:50.633444 #53558]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:47:50.633455 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] ERROR: Running exception handlers
+I, [2014-07-10T16:47:50.633478 #53558]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:47:50.633490 #53558]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:47:50.634070 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] ERROR: Exception handlers complete
+I, [2014-07-10T16:47:50.634098 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-07-10T16:47:50.634124 #53558]  INFO -- default-centos-64: Chef Client failed. 0 resources updated in 7.955564357 seconds[0m
+I, [2014-07-10T16:47:50.644056 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] ERROR: Option action must be equal to one of: nothing, install, upgrade, remove, purge, reconfig!  You passed :enable.
+I, [2014-07-10T16:47:50.676295 #53558]  INFO -- default-centos-64: [2014-07-10T20:47:50+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-07-10T16:47:50.712227 #53558] ERROR -- default-centos-64: Converge failed on instance <default-centos-64>.
+E, [2014-07-10T16:47:50.712338 #53558] ERROR -- default-centos-64: ------Exception-------
+E, [2014-07-10T16:47:50.712359 #53558] ERROR -- default-centos-64: Class: Kitchen::ActionFailed
+E, [2014-07-10T16:47:50.712376 #53558] ERROR -- default-centos-64: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-07-10T16:47:50.712388 #53558] ERROR -- default-centos-64: ---Nested Exception---
+E, [2014-07-10T16:47:50.712399 #53558] ERROR -- default-centos-64: Class: Kitchen::SSHFailed
+E, [2014-07-10T16:47:50.712410 #53558] ERROR -- default-centos-64: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-07-10T16:47:50.712431 #53558] ERROR -- default-centos-64: ------Backtrace-------
+E, [2014-07-10T16:47:50.712441 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-07-10T16:47:50.712452 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-07-10T16:47:50.712463 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-07-10T16:47:50.712473 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-07-10T16:47:50.712486 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-07-10T16:47:50.712497 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-07-10T16:47:50.712522 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T16:47:50.712533 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T16:47:50.712543 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T16:47:50.712553 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T16:47:50.712563 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T16:47:50.712573 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T16:47:50.712583 #53558] ERROR -- default-centos-64: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T16:47:50.712596 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T16:47:50.712606 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T16:47:50.712625 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T16:47:50.712638 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T16:47:50.712648 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T16:47:50.712658 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T16:47:50.712672 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T16:47:50.712682 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T16:47:50.712692 #53558] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T16:47:50.712705 #53558] ERROR -- default-centos-64: ----------------------
+I, [2014-07-10T16:47:52.600398 #53578]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:47:52.601632 #53578]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:47:52.601943 #53578]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:47:52.695972 #53578]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:47:52.925281 #53578]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:47:53.979857 #53578]  INFO -- default-centos-64: [2014-07-10T20:47:53+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:47:53.979918 #53578]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:47:53.979940 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.002774 #53578]  INFO -- default-centos-64: [2014-07-10T20:47:53+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:47:54.007573 #53578]  INFO -- default-centos-64: [2014-07-10T20:47:53+00:00] WARN: 
+I, [2014-07-10T16:47:54.007608 #53578]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:47:54.007627 #53578]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:47:54.007642 #53578]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:47:54.007656 #53578]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:47:54.007669 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007683 #53578]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:47:54.007718 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007731 #53578]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:54.007744 #53578]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:47:54.007756 #53578]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:47:54.007768 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007780 #53578]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:47:54.007792 #53578]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:47:54.007804 #53578]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:54.007815 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007827 #53578]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:47:54.007840 #53578]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:47:54.007869 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007883 #53578]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:54.007896 #53578]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:47:54.007908 #53578]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:47:54.007919 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.007931 #53578]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:47:54.007971 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:47:54.031851 #53578]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:47:54.031906 #53578]  INFO -- default-centos-64: [2014-07-10T20:47:53+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:47:54.031926 #53578]  INFO -- default-centos-64: [2014-07-10T20:47:53+00:00] INFO: Chef-client pid: 9318
+I, [2014-07-10T16:48:01.755032 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:48:01.758511 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:48:01.758547 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:48:01.758565 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:48:01.758579 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Running start handlers
+I, [2014-07-10T16:48:01.758593 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:48:01.765548 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:48:01.765592 #53578]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:48:01.915510 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:48:01.918775 #53578]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:48:01.918811 #53578]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:48:01.921475 #53578]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:48:01.921508 #53578]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:48:01.922532 #53578]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:48:01.922563 #53578]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:48:01.986808 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] WARN: Cloning resource attributes for package[httpd] from prior resource (CHEF-3694)
+I, [2014-07-10T16:48:01.986881 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] WARN: Previous package[httpd]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:3:in `from_file'
+I, [2014-07-10T16:48:01.986912 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] WARN: Current  package[httpd]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:7:in `from_file'
+I, [2014-07-10T16:48:01.986950 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.986979 #53578]  INFO -- default-centos-64: ================================================================================[0m
+I, [2014-07-10T16:48:01.987004 #53578]  INFO -- default-centos-64: [31mRecipe Compile Error in /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb[0m
+I, [2014-07-10T16:48:01.987028 #53578]  INFO -- default-centos-64: ================================================================================[0m
+I, [2014-07-10T16:48:01.987054 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.987105 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.987132 #53578]  INFO -- default-centos-64: Chef::Exceptions::ValidationFailed[0m
+I, [2014-07-10T16:48:01.987152 #53578]  INFO -- default-centos-64: ----------------------------------[0m
+I, [2014-07-10T16:48:01.987173 #53578]  INFO -- default-centos-64: Option action must be equal to one of: nothing, install, upgrade, remove, purge, reconfig!  You passed :enable.[0m
+I, [2014-07-10T16:48:01.987194 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.987228 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.987253 #53578]  INFO -- default-centos-64: Cookbook Trace:[0m
+I, [2014-07-10T16:48:01.987275 #53578]  INFO -- default-centos-64: ---------------[0m
+I, [2014-07-10T16:48:01.987297 #53578]  INFO -- default-centos-64:   /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:8:in `block in from_file'
+I, [2014-07-10T16:48:01.987323 #53578]  INFO -- default-centos-64:   /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:7:in `from_file'[0m
+I, [2014-07-10T16:48:01.987359 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.987406 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.987429 #53578]  INFO -- default-centos-64: Relevant File Content:[0m
+I, [2014-07-10T16:48:01.987449 #53578]  INFO -- default-centos-64: ----------------------[0m
+I, [2014-07-10T16:48:01.987474 #53578]  INFO -- default-centos-64: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:
+I, [2014-07-10T16:48:01.987508 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.987534 #53578]  INFO -- default-centos-64:   1:  include_recipe 'mysql::server'
+I, [2014-07-10T16:48:01.987555 #53578]  INFO -- default-centos-64:   2:  
+I, [2014-07-10T16:48:01.987578 #53578]  INFO -- default-centos-64:   3:  package 'httpd' do
+I, [2014-07-10T16:48:01.987605 #53578]  INFO -- default-centos-64:   4:    action :install
+I, [2014-07-10T16:48:01.987630 #53578]  INFO -- default-centos-64:   5:  end
+I, [2014-07-10T16:48:01.987651 #53578]  INFO -- default-centos-64:   6:  
+I, [2014-07-10T16:48:01.987672 #53578]  INFO -- default-centos-64:   7:  package 'httpd' do
+I, [2014-07-10T16:48:01.987701 #53578]  INFO -- default-centos-64:   8>>   action [:enable, :start]
+I, [2014-07-10T16:48:01.987720 #53578]  INFO -- default-centos-64:   9:  end
+I, [2014-07-10T16:48:01.987740 #53578]  INFO -- default-centos-64:  10:  
+I, [2014-07-10T16:48:01.987759 #53578]  INFO -- default-centos-64:  11:  file '/var/www/html/index.html' do
+I, [2014-07-10T16:48:01.987784 #53578]  INFO -- default-centos-64:  12:    content 'hello there'
+I, [2014-07-10T16:48:01.987806 #53578]  INFO -- default-centos-64:  13:    action :create
+I, [2014-07-10T16:48:01.987834 #53578]  INFO -- default-centos-64:  14:  end
+I, [2014-07-10T16:48:01.987858 #53578]  INFO -- default-centos-64:  15:  
+I, [2014-07-10T16:48:01.987920 #53578]  INFO -- default-centos-64:  16:  mysql_service 'default' do
+I, [2014-07-10T16:48:01.987945 #53578]  INFO -- default-centos-64:  17:    port '1234'
+I, [2014-07-10T16:48:01.987975 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.988001 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.988022 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.988043 #53578]  INFO -- default-centos-64: 
+I, [2014-07-10T16:48:01.988068 #53578]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:48:01.988098 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] ERROR: Running exception handlers
+I, [2014-07-10T16:48:01.988121 #53578]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:48:01.988141 #53578]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:48:01.988160 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] ERROR: Exception handlers complete
+I, [2014-07-10T16:48:01.989056 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-07-10T16:48:01.989113 #53578]  INFO -- default-centos-64: Chef Client failed. 0 resources updated in 7.989331452 seconds[0m
+I, [2014-07-10T16:48:01.996866 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] ERROR: Option action must be equal to one of: nothing, install, upgrade, remove, purge, reconfig!  You passed :enable.
+I, [2014-07-10T16:48:02.028390 #53578]  INFO -- default-centos-64: [2014-07-10T20:48:01+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-07-10T16:48:02.062359 #53578] ERROR -- default-centos-64: Converge failed on instance <default-centos-64>.
+E, [2014-07-10T16:48:02.062462 #53578] ERROR -- default-centos-64: ------Exception-------
+E, [2014-07-10T16:48:02.062484 #53578] ERROR -- default-centos-64: Class: Kitchen::ActionFailed
+E, [2014-07-10T16:48:02.062498 #53578] ERROR -- default-centos-64: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-07-10T16:48:02.062510 #53578] ERROR -- default-centos-64: ---Nested Exception---
+E, [2014-07-10T16:48:02.062521 #53578] ERROR -- default-centos-64: Class: Kitchen::SSHFailed
+E, [2014-07-10T16:48:02.062532 #53578] ERROR -- default-centos-64: Message: SSH exited (1) for command: [sudo -E chef-client -z --config /tmp/kitchen/client.rb --log_level info --json-attributes /tmp/kitchen/dna.json]
+E, [2014-07-10T16:48:02.062546 #53578] ERROR -- default-centos-64: ------Backtrace-------
+E, [2014-07-10T16:48:02.062568 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-07-10T16:48:02.062589 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-07-10T16:48:02.062600 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-07-10T16:48:02.062611 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-07-10T16:48:02.062622 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-07-10T16:48:02.062651 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-07-10T16:48:02.062672 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-07-10T16:48:02.062683 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-07-10T16:48:02.062707 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-07-10T16:48:02.062719 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-07-10T16:48:02.062730 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-07-10T16:48:02.062741 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-07-10T16:48:02.062751 #53578] ERROR -- default-centos-64: /Users/user/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-07-10T16:48:02.062762 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-07-10T16:48:02.062773 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-07-10T16:48:02.062793 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-07-10T16:48:02.062806 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-07-10T16:48:02.062820 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-07-10T16:48:02.062831 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-07-10T16:48:02.062842 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-07-10T16:48:02.062852 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-07-10T16:48:02.062863 #53578] ERROR -- default-centos-64: /Users/user/.rvm/gems/ruby-2.1.2/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-07-10T16:48:02.062874 #53578] ERROR -- default-centos-64: ----------------------
+I, [2014-07-10T16:49:15.746700 #53614]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+I, [2014-07-10T16:49:15.748048 #53614]  INFO -- default-centos-64: Preparing files for transfer
+I, [2014-07-10T16:49:15.748365 #53614]  INFO -- default-centos-64: Resolving cookbook dependencies with Berkshelf 3.0.1...
+I, [2014-07-10T16:49:15.843981 #53614]  INFO -- default-centos-64: Removing non-cookbook files before transfer
+I, [2014-07-10T16:49:16.068091 #53614]  INFO -- default-centos-64: Transfering files to <default-centos-64>
+I, [2014-07-10T16:49:17.142554 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:17+00:00] INFO: Starting chef-zero on port 8889 with repository at repository at /tmp/kitchen
+I, [2014-07-10T16:49:17.142610 #53614]  INFO -- default-centos-64:   One version per cookbook
+I, [2014-07-10T16:49:17.142629 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.157992 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:17+00:00] INFO: Forking chef instance to converge...
+I, [2014-07-10T16:49:17.162787 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:17+00:00] WARN: 
+I, [2014-07-10T16:49:17.162832 #53614]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:49:17.162859 #53614]  INFO -- default-centos-64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-07-10T16:49:17.162884 #53614]  INFO -- default-centos-64: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-07-10T16:49:17.162907 #53614]  INFO -- default-centos-64: attacks.
+I, [2014-07-10T16:49:17.162929 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.162950 #53614]  INFO -- default-centos-64: To fix this issue add an entry like this to your configuration file:
+I, [2014-07-10T16:49:17.162999 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.163018 #53614]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:49:17.163039 #53614]  INFO -- default-centos-64:   # Verify all HTTPS connections (recommended)
+I, [2014-07-10T16:49:17.163057 #53614]  INFO -- default-centos-64:   ssl_verify_mode :verify_peer
+I, [2014-07-10T16:49:17.163074 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.163091 #53614]  INFO -- default-centos-64:   # OR, Verify only connections to chef-server
+I, [2014-07-10T16:49:17.163108 #53614]  INFO -- default-centos-64:   verify_api_cert true
+I, [2014-07-10T16:49:17.163125 #53614]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:49:17.163141 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.163157 #53614]  INFO -- default-centos-64: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-07-10T16:49:17.163174 #53614]  INFO -- default-centos-64: `knife ssl check` command like so:
+I, [2014-07-10T16:49:17.163214 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.163234 #53614]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:49:17.163254 #53614]  INFO -- default-centos-64:   knife ssl check -c /tmp/kitchen/client.rb
+I, [2014-07-10T16:49:17.163272 #53614]  INFO -- default-centos-64: ```
+I, [2014-07-10T16:49:17.163288 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.163305 #53614]  INFO -- default-centos-64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+I, [2014-07-10T16:49:17.163322 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:17.186852 #53614]  INFO -- default-centos-64: Starting Chef Client, version 11.12.8[0m
+I, [2014-07-10T16:49:17.186906 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:17+00:00] INFO: *** Chef 11.12.8 ***
+I, [2014-07-10T16:49:17.186925 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:17+00:00] INFO: Chef-client pid: 9544
+I, [2014-07-10T16:49:24.856918 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Setting the run_list to ["recipe[hello::default]"] from CLI options
+I, [2014-07-10T16:49:24.859466 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Run List is [recipe[hello::default]]
+I, [2014-07-10T16:49:24.859504 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Run List expands to [hello::default]
+I, [2014-07-10T16:49:24.859521 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Starting Chef Run for default-centos-64
+I, [2014-07-10T16:49:24.859535 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Running start handlers
+I, [2014-07-10T16:49:24.859548 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: Start handlers complete.
+I, [2014-07-10T16:49:24.865266 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:24+00:00] INFO: HTTP Request Returned 404 Not Found : Object not found: /reports/nodes/default-centos-64/runs
+I, [2014-07-10T16:49:24.865303 #53614]  INFO -- default-centos-64: resolving cookbooks for run list: ["hello::default"][0m
+I, [2014-07-10T16:49:25.018568 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:25+00:00] INFO: Loading cookbooks [hello@0.0.1, mysql@5.3.6, yum-mysql-community@0.1.8, yum@3.2.2]
+I, [2014-07-10T16:49:25.022544 #53614]  INFO -- default-centos-64: Synchronizing Cookbooks:[0m
+I, [2014-07-10T16:49:25.030918 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:25+00:00] INFO: Storing updated cookbooks/hello/recipes/default.rb in the cache.
+I, [2014-07-10T16:49:25.030966 #53614]  INFO -- default-centos-64:   - hello[0m
+I, [2014-07-10T16:49:25.031905 #53614]  INFO -- default-centos-64:   - mysql[0m
+I, [2014-07-10T16:49:25.033168 #53614]  INFO -- default-centos-64:   - yum-mysql-community[0m
+I, [2014-07-10T16:49:25.034242 #53614]  INFO -- default-centos-64:   - yum[0m
+I, [2014-07-10T16:49:25.034271 #53614]  INFO -- default-centos-64: Compiling Cookbooks...[0m
+I, [2014-07-10T16:49:25.090990 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:25+00:00] WARN: Cloning resource attributes for mysql_service[default] from prior resource (CHEF-3694)
+I, [2014-07-10T16:49:25.091048 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:25+00:00] WARN: Previous mysql_service[default]: /tmp/kitchen/cache/cookbooks/mysql/recipes/server.rb:20:in `from_file'
+I, [2014-07-10T16:49:25.091069 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:25+00:00] WARN: Current  mysql_service[default]: /tmp/kitchen/cache/cookbooks/hello/recipes/default.rb:16:in `from_file'
+I, [2014-07-10T16:49:25.091084 #53614]  INFO -- default-centos-64: Converging 5 resources[0m
+I, [2014-07-10T16:49:25.091098 #53614]  INFO -- default-centos-64: Recipe: mysql::server[0m
+I, [2014-07-10T16:49:25.091113 #53614]  INFO -- default-centos-64:   * mysql_service[default] action create[0m[2014-07-10T20:49:25+00:00] INFO: Processing mysql_service[default] action create (mysql::server line 20)
+I, [2014-07-10T16:49:25.094008 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:25.094045 #53614]  INFO -- default-centos-64:     - rhel pattern[0mRecipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:49:25.094063 #53614]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:49:25+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:49:26.038745 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.038800 #53614]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m
+I, [2014-07-10T16:49:26.040123 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:49:26.041863 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.041895 #53614]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:49:26+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:49:26.042588 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.043460 #53614]  INFO -- default-centos-64:   * directory[/var/lib/mysql] action create[0m[2014-07-10T20:49:26+00:00] INFO: Processing directory[/var/lib/mysql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:49:26.044539 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.044568 #53614]  INFO -- default-centos-64:   * service[mysqld] action start[0m[2014-07-10T20:49:26+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:26.272045 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.272110 #53614]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:49:26+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:26.466741 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.467629 #53614]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:49:26+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:49:26.564960 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:49:26.565043 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:26.565075 #53614]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:49:26.565101 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:26.565683 #53614]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:49:26+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:49:26.573065 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:26.573122 #53614]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m[2014-07-10T20:49:26+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:49:26.573148 #53614]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:49:26.573167 #53614]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:49:26+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:49:26.577531 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204926.578734
+I, [2014-07-10T16:49:26.577582 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710203413.265464
+I, [2014-07-10T16:49:26.589359 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:49:26.589405 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:26.589422 #53614]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from b6a117 to 8b3b74[0m[37m
+I, [2014-07-10T16:49:26.589459 #53614]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:47:06.379737467 +0000[0m[37m
+I, [2014-07-10T16:49:26.589479 #53614]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-9544-h7embf	2014-07-10 20:49:26.576445424 +0000[0m[37m
+I, [2014-07-10T16:49:26.589495 #53614]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:49:26.589510 #53614]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:49:26.589528 #53614]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:49:26.589545 #53614]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:49:26.589561 #53614]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:49:26.589594 #53614]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:49:26.589608 #53614]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:49:26.589625 #53614]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:49:26.589640 #53614]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:49:26.589656 #53614]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:49:26.589671 #53614]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:49:26.589689 #53614]  INFO -- default-centos-64:  -port                           = 1234[0m[37m
+I, [2014-07-10T16:49:26.589704 #53614]  INFO -- default-centos-64:  -datadir                        = /data[0m[37m
+I, [2014-07-10T16:49:26.589719 #53614]  INFO -- default-centos-64:  +port                           = 3306[0m[37m
+I, [2014-07-10T16:49:26.589734 #53614]  INFO -- default-centos-64:  +datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:49:26.589750 #53614]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:49:26.589765 #53614]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:49:26.589795 #53614]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:49:26.862376 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:26.862441 #53614]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:49:26.862600 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:26.862638 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:26.862662 #53614]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m[2014-07-10T20:49:26+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:49:26.862685 #53614]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:49:26.862704 #53614]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m[2014-07-10T20:49:26+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:49:26.964558 #53614]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:49:26.965476 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:49:26.965522 #53614]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:49:26+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:49:26.968099 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:26.968148 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:26.968169 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:26+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:49:26.968187 #53614]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:49:26+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:29.549037 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:29+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:49:29.549120 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:29.549151 #53614]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:49:29.549178 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:29.549793 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:29.549833 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:29.549856 #53614]  INFO -- default-centos-64: Recipe: hello::default[0m
+I, [2014-07-10T16:49:29.549875 #53614]  INFO -- default-centos-64:   * package[httpd] action install[0m
+I, [2014-07-10T16:49:29.550802 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:29+00:00] INFO: Processing package[httpd] action install (hello::default line 3)
+I, [2014-07-10T16:49:29.552261 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.552303 #53614]  INFO -- default-centos-64:   * service[httpd] action enable[0m[2014-07-10T20:49:29+00:00] INFO: Processing service[httpd] action enable (hello::default line 7)
+I, [2014-07-10T16:49:29.746765 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.746830 #53614]  INFO -- default-centos-64:   * service[httpd] action start[0m[2014-07-10T20:49:29+00:00] INFO: Processing service[httpd] action start (hello::default line 7)
+I, [2014-07-10T16:49:29.942227 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.942324 #53614]  INFO -- default-centos-64:   * file[/var/www/html/index.html] action create[0m[2014-07-10T20:49:29+00:00] INFO: Processing file[/var/www/html/index.html] action create (hello::default line 11)
+I, [2014-07-10T16:49:29.945388 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.945432 #53614]  INFO -- default-centos-64:   * mysql_service[default] action create[0m
+I, [2014-07-10T16:49:29.946794 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:29+00:00] INFO: Processing mysql_service[default] action create (hello::default line 16)
+I, [2014-07-10T16:49:29.949758 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:29.949789 #53614]  INFO -- default-centos-64:     - rhel pattern[0m
+I, [2014-07-10T16:49:29.950577 #53614]  INFO -- default-centos-64: Recipe: <Dynamically Defined Resource>[0m
+I, [2014-07-10T16:49:29.950605 #53614]  INFO -- default-centos-64:   * package[mysql-server] action install[0m[2014-07-10T20:49:29+00:00] INFO: Processing package[mysql-server] action install (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 168)
+I, [2014-07-10T16:49:29.950626 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.951861 #53614]  INFO -- default-centos-64:   * directory[/etc/mysql/conf.d] action create[0m[2014-07-10T20:49:29+00:00] INFO: Processing directory[/etc/mysql/conf.d] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 172)
+I, [2014-07-10T16:49:29.953914 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.953946 #53614]  INFO -- default-centos-64:   * directory[/var/run/mysqld] action create[0m[2014-07-10T20:49:29+00:00] INFO: Processing directory[/var/run/mysqld] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 180)
+I, [2014-07-10T16:49:29.953963 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.953977 #53614]  INFO -- default-centos-64:   * directory[/data] action create[0m
+I, [2014-07-10T16:49:29.955154 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:29+00:00] INFO: Processing directory[/data] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 188)
+I, [2014-07-10T16:49:29.955184 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:29.955200 #53614]  INFO -- default-centos-64:   * service[mysqld] action start[0m
+I, [2014-07-10T16:49:29.956206 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:29+00:00] INFO: Processing service[mysqld] action start (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:30.162826 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:30.162894 #53614]  INFO -- default-centos-64:   * service[mysqld] action enable[0m[2014-07-10T20:49:30+00:00] INFO: Processing service[mysqld] action enable (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:30.366182 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:30.367475 #53614]  INFO -- default-centos-64:   * execute[wait for mysql] action run[0m[2014-07-10T20:49:30+00:00] INFO: Processing execute[wait for mysql] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 201)
+I, [2014-07-10T16:49:30.465636 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: execute[wait for mysql] ran successfully
+I, [2014-07-10T16:49:30.465703 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:30.465728 #53614]  INFO -- default-centos-64:     - execute until [ -S /var/lib/mysql/mysql.sock ] ; do sleep 1 ; done[0m
+I, [2014-07-10T16:49:30.465748 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:30.466426 #53614]  INFO -- default-centos-64:   * template[/etc/mysql_grants.sql] action create[0m[2014-07-10T20:49:30+00:00] INFO: Processing template[/etc/mysql_grants.sql] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 207)
+I, [2014-07-10T16:49:30.519931 #53614]  INFO -- default-centos-64:  (up to date)[0m
+I, [2014-07-10T16:49:30.520019 #53614]  INFO -- default-centos-64:   * execute[install-grants] action nothing[0m
+I, [2014-07-10T16:49:30.520956 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: Processing execute[install-grants] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 224)
+I, [2014-07-10T16:49:30.520993 #53614]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:49:30.521011 #53614]  INFO -- default-centos-64:   * template[/etc/my.cnf] action create[0m[2014-07-10T20:49:30+00:00] INFO: Processing template[/etc/my.cnf] action create (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 232)
+I, [2014-07-10T16:49:30.527430 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: template[/etc/my.cnf] backed up to /tmp/kitchen/backup/etc/my.cnf.chef-20140710204930.527093
+I, [2014-07-10T16:49:30.527466 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: template[/etc/my.cnf] removed backup at /tmp/kitchen/backup/./etc/my.cnf.chef-20140710204618.014079
+I, [2014-07-10T16:49:30.528742 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: template[/etc/my.cnf] updated file contents /etc/my.cnf
+I, [2014-07-10T16:49:30.528836 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:30.528855 #53614]  INFO -- default-centos-64:     - update content in file /etc/my.cnf from 8b3b74 to b6a117[0m[37m
+I, [2014-07-10T16:49:30.528877 #53614]  INFO -- default-centos-64:  --- /etc/my.cnf	2014-07-10 20:49:26.576445424 +0000[0m[37m
+I, [2014-07-10T16:49:30.528909 #53614]  INFO -- default-centos-64:  +++ /tmp/chef-rendered-template20140710-9544-1re39tf	2014-07-10 20:49:30.525445421 +0000[0m[37m
+I, [2014-07-10T16:49:30.528925 #53614]  INFO -- default-centos-64:  @@ -1,5 +1,5 @@[0m[37m
+I, [2014-07-10T16:49:30.528943 #53614]  INFO -- default-centos-64:   [client][0m[37m
+I, [2014-07-10T16:49:30.528959 #53614]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:49:30.528975 #53614]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:49:30.528990 #53614]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:49:30.529005 #53614]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:49:30.529022 #53614]  INFO -- default-centos-64:   [mysqld_safe][0m[37m
+I, [2014-07-10T16:49:30.529037 #53614]  INFO -- default-centos-64:  @@ -9,8 +9,8 @@[0m[37m
+I, [2014-07-10T16:49:30.529052 #53614]  INFO -- default-centos-64:   user                           = mysql[0m[37m
+I, [2014-07-10T16:49:30.529067 #53614]  INFO -- default-centos-64:   pid-file                       = /var/run/mysqld/mysql.pid[0m[37m
+I, [2014-07-10T16:49:30.529085 #53614]  INFO -- default-centos-64:   socket                         = /var/lib/mysql/mysql.sock[0m[37m
+I, [2014-07-10T16:49:30.529101 #53614]  INFO -- default-centos-64:  -port                           = 3306[0m[37m
+I, [2014-07-10T16:49:30.529116 #53614]  INFO -- default-centos-64:  -datadir                        = /var/lib/mysql[0m[37m
+I, [2014-07-10T16:49:30.529132 #53614]  INFO -- default-centos-64:  +port                           = 1234[0m[37m
+I, [2014-07-10T16:49:30.529149 #53614]  INFO -- default-centos-64:  +datadir                        = /data[0m[37m
+I, [2014-07-10T16:49:30.529163 #53614]  INFO -- default-centos-64:   [0m[37m
+I, [2014-07-10T16:49:30.529177 #53614]  INFO -- default-centos-64:   [mysql][0m[37m
+I, [2014-07-10T16:49:30.529207 #53614]  INFO -- default-centos-64:   !includedir /etc/mysql/conf.d[0m
+I, [2014-07-10T16:49:30.649905 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:30.649986 #53614]  INFO -- default-centos-64:     - restore selinux security context[0m
+I, [2014-07-10T16:49:30.650741 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:30.650796 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:30.650867 #53614]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action nothing[0m
+I, [2014-07-10T16:49:30.651775 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: Processing bash[move mysql data to datadir] action nothing (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:49:30.651818 #53614]  INFO -- default-centos-64:  (skipped due to action :nothing)[0m
+I, [2014-07-10T16:49:30.651841 #53614]  INFO -- default-centos-64:   * execute[assign-root-password] action run[0m
+I, [2014-07-10T16:49:30.652920 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: Processing execute[assign-root-password] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 268)
+I, [2014-07-10T16:49:30.702185 #53614]  INFO -- default-centos-64:  (skipped due to only_if)[0m
+I, [2014-07-10T16:49:30.702307 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+  * bash[move mysql data to datadir] action run[0mI, [2014-07-10T16:49:30.704725 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:49:30.707896 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:30.707958 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:30.707987 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:30+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:49:30.708008 #53614]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:49:30+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:36.063538 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:36+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:49:36.063595 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:36.063614 #53614]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:49:36.063630 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:36.064963 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:36+00:00] INFO: template[/etc/my.cnf] sending run action to bash[move mysql data to datadir] (delayed)
+I, [2014-07-10T16:49:36.064997 #53614]  INFO -- default-centos-64:   * bash[move mysql data to datadir] action run[0m[2014-07-10T20:49:36+00:00] INFO: Processing bash[move mysql data to datadir] action run (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 256)
+I, [2014-07-10T16:49:36.065417 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:36.065446 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:36.066469 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:36+00:00] INFO: template[/etc/my.cnf] sending restart action to service[mysqld] (delayed)
+I, [2014-07-10T16:49:36.066502 #53614]  INFO -- default-centos-64:   * service[mysqld] action restart[0m[2014-07-10T20:49:36+00:00] INFO: Processing service[mysqld] action restart (/tmp/kitchen/cache/cookbooks/mysql/libraries/provider_mysql_service_rhel.rb line 196)
+I, [2014-07-10T16:49:42.374239 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:42+00:00] INFO: service[mysqld] restarted
+I, [2014-07-10T16:49:42.374317 #53614]  INFO -- default-centos-64: [32m
+I, [2014-07-10T16:49:42.374341 #53614]  INFO -- default-centos-64:     - restart service service[mysqld][0m
+I, [2014-07-10T16:49:42.374362 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:42.374380 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:42.374397 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:42.406734 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:42+00:00] INFO: Chef Run complete in 17.546962158 seconds
+I, [2014-07-10T16:49:42.407333 #53614]  INFO -- default-centos-64: 
+I, [2014-07-10T16:49:42.407362 #53614]  INFO -- default-centos-64: Running handlers:[0m
+I, [2014-07-10T16:49:42.408227 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:42+00:00] INFO: Running report handlers
+I, [2014-07-10T16:49:42.408277 #53614]  INFO -- default-centos-64: Running handlers complete
+I, [2014-07-10T16:49:42.408307 #53614]  INFO -- default-centos-64: [0m
+I, [2014-07-10T16:49:42.408332 #53614]  INFO -- default-centos-64: [2014-07-10T20:49:42+00:00] INFO: Report handlers complete
+I, [2014-07-10T16:49:42.408360 #53614]  INFO -- default-centos-64: Chef Client finished, 12/30 resources updated in 25.254185843 seconds[0m
+I, [2014-07-10T16:49:44.443448 #53614]  INFO -- default-centos-64: Finished converging <default-centos-64> (0m28.70s).
+I, [2014-07-10T16:53:14.369419 #53725]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:53:15.844834 #53725]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:53:16.202157 #53725]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:53:17.850098 #53725]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:53:17.851846 #53725]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.48s).
+I, [2014-07-10T16:56:20.975060 #53863]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T16:56:22.467518 #53863]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T16:56:22.814634 #53863]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T16:56:24.503101 #53863]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T16:56:24.504676 #53863]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.53s).
+I, [2014-07-10T17:12:08.164999 #54011]  INFO -- default-centos-64: -----> Creating <default-centos-64>...
+I, [2014-07-10T17:12:09.658683 #54011]  INFO -- default-centos-64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-07-10T17:12:10.008500 #54011]  INFO -- default-centos-64: ==> default: VirtualBox VM is already running.
+I, [2014-07-10T17:12:11.668241 #54011]  INFO -- default-centos-64: Vagrant instance <default-centos-64> created.
+I, [2014-07-10T17:12:11.669799 #54011]  INFO -- default-centos-64: Finished creating <default-centos-64> (0m3.50s).

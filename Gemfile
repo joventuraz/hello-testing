@@ -14,4 +14,6 @@ group :development do
   gem 'guard-kitchen' 
   gem 'guard-foodcritic'
   gem 'guard-rspec'
+  gem 'guard-rubocop'
+  gem 'terminal-notifier-guard'
 end

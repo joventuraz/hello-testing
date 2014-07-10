@@ -98,6 +98,9 @@ GEM
     guard-rspec (4.2.10)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
+    guard-rubocop (1.1.0)
+      guard (~> 2.0)
+      rubocop (~> 0.20)
     hashie (2.1.2)
     highline (1.6.21)
     hitimes (1.2.2)
@@ -210,6 +213,7 @@ GEM
       dep_selector (~> 1.0)
       semverse (~> 1.1)
     systemu (2.5.2)
+    terminal-notifier-guard (1.5.3)
     test-kitchen (1.2.1)
       mixlib-shellout (~> 1.2)
       net-scp (~> 1.1)
@@ -239,6 +243,8 @@ DEPENDENCIES
   guard-foodcritic
   guard-kitchen
   guard-rspec
+  guard-rubocop
   kitchen-vagrant
   rubocop
+  terminal-notifier-guard
   test-kitchen
