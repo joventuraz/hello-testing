@@ -2,5 +2,5 @@
 hostname: 127.0.0.1
 username: vagrant
 ssh_key: "/Users/user/.vagrant.d/insecure_private_key"
-port: '2222'
-last_action: create
+port: '2200'
+last_action: converge

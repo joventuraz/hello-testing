@@ -9,7 +9,9 @@ service 'httpd' do
 end
 
 file '/var/www/html/index.html' do
-  content 'hello there'
+  content "hello from #{
+    node.automatic.network.interfaces.eth1.addresses.to_json
+  }"
   action :create
 end
 
