@@ -1,13 +1,7 @@
 DEPENDENCIES
-  hello
+  webServer
     path: .
     metadata: true
 
 GRAPH
-  hello (0.0.1)
-    mysql (>= 0.0.0)
-  mysql (5.3.6)
-    yum-mysql-community (>= 0.0.0)
-  yum (3.2.2)
-  yum-mysql-community (0.1.8)
-    yum (>= 3.0.0)
+  webServer (0.1.3)

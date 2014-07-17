@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'hello::default' do
+describe 'webServer::default' do
   let(:chef_run) { ChefSpec::Runner.new.converge('hello::default') }
 
   it 'installs the httpd' do

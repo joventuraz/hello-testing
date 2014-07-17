@@ -9,10 +9,10 @@ platforms:
   - name: centos-6.5
     driver_config:
       network:
-      -  ["private_network", {ip: "33.33.33.10"}]
+      -  ["private_network", {ip: "33.33.33.33"}]
 
 suites:
   - name: default
     run_list:
-      - recipe[hello::default]
+      - recipe[webServer::default]
     attributes:
