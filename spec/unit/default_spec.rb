@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'webServer::default' do
-  let(:chef_run) { ChefSpec::Runner.new.converge('hello::default') }
+  let(:chef_run) { ChefSpec::Runner.new.converge('webServer::default') }
 
   it 'installs the httpd' do
     expect(chef_run).to install_package('httpd')
@@ -14,14 +14,7 @@ describe 'webServer::default' do
 
   it 'creates index.html' do
     expect(chef_run).to create_file('/var/www/html/index.html').with(
-      content: 'hello there'
-      )
-  end
-
-  it 'creates the default mysql_service' do
-    expect(chef_run).to create_mysql_service('default').with(
-      port: '1234',
-      data_dir: '/data'
+      content: /hello from/
       )
   end
 end
